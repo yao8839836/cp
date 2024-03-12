@@ -4,9 +4,10 @@ This is the official implementation of `Large Language Models are Contrastive Re
 
 The paper is available at [arXiv](https://arxiv.org/abs/2403.xxxx).
 
-<div align="center">
-<img src="img/zero_shot_cp.pdf">
-</div>
+<object data="./img/zero_shot_cp.pdf" type="application/pdf" width="700px">
+    <embed src="/img/zero_shot_cp.pdf">
+    </embed>
+</object>
 
 
 ## Installation
