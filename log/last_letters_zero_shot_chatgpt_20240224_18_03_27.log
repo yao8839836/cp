@@ -1,0 +1,3500 @@
+INFO:root:*****************************
+INFO:root:Namespace(api_log_file_name=None, api_time_interval=1.0, cot_trigger="Let's think step by step.", cot_trigger_no=1, cp_trigger="Let's give a correct and a wrong answer.", cp_trigger_no=1, dataset='last_letters', dataset_path='./dataset/last_letters/last_letters.json', direct_answer_trigger='\nTherefore, the answer is', direct_answer_trigger_cp='\nTherefore, the correct answer is', direct_answer_trigger_for_fewshot='The answer is', direct_answer_trigger_for_zeroshot='The answer is', direct_answer_trigger_for_zeroshot_cot='\nTherefore, the answer is', limit_dataset_size=0, log_dir='./log/', max_length_cot=512, max_length_cp=512, max_length_direct=512, max_num_worker=1, method='zero_shot', minibatch_size=1, model='chatgpt', random_seed=1)
+INFO:root:*****************************
+INFO:root:*************************
+INFO:root:1st data
+INFO:root:Q: Take the last letters of each words in "Whitney Erika Tj Benito" and concatenate them.
+A: The answer is "YATJTO"
+INFO:root:pred : YATJTO
+INFO:root:GT : yajo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:2st data
+INFO:root:Q: Take the last letters of each words in "Lucky Mireya Jj Kc" and concatenate them.
+A: The answer is "yajc"
+INFO:root:pred : yajc
+INFO:root:GT : yajc
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:3st data
+INFO:root:Q: Take the last letters of each words in "Caleb Chase Eleazar Chanel" and concatenate them.
+A: The answer is "e s r l".
+INFO:root:pred : esrl
+INFO:root:GT : berl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:4st data
+INFO:root:Q: Take the last letters of each words in "Silvia Carolina Stan Chuck" and concatenate them.
+A: The answer is "acnknk".
+INFO:root:pred : acnknk
+INFO:root:GT : aank
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:5st data
+INFO:root:Q: Take the last letters of each words in "Breanna Trey Omar Patrice" and concatenate them.
+A: The answer is "ATOP"
+INFO:root:pred : ATOP
+INFO:root:GT : ayre
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:6st data
+INFO:root:Q: Take the last letters of each words in "Lilian Ian Bryce Aracely" and concatenate them.
+A: The answer is "NnNeeYy"
+INFO:root:pred : NnNeeYy
+INFO:root:GT : nney
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:7st data
+INFO:root:Q: Take the last letters of each words in "Walter Mikayla Larry Ryan" and concatenate them.
+A: The answer is "Ryla"
+INFO:root:pred : Ryla
+INFO:root:GT : rayn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:8st data
+INFO:root:Q: Take the last letters of each words in "Angelina Layla Jenny Zane" and concatenate them.
+A: The answer is "ALJZ"
+INFO:root:pred : ALJZ
+INFO:root:GT : aaye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:9st data
+INFO:root:Q: Take the last letters of each words in "Lizzy Juany Aisha Brenda" and concatenate them.
+A: The answer is "yznadr"
+INFO:root:pred : yznadr
+INFO:root:GT : yyaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:10st data
+INFO:root:Q: Take the last letters of each words in "Elise Lupe Renee Noemi" and concatenate them.
+A: The answer is "Eseeei"
+INFO:root:pred : Eseeei
+INFO:root:GT : eeei
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:11st data
+INFO:root:Q: Take the last letters of each words in "Jesse Roderick Travis Rita" and concatenate them.
+A: The answer is "eckstia"
+INFO:root:pred : eckstia
+INFO:root:GT : eksa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:12st data
+INFO:root:Q: Take the last letters of each words in "Cinthia Lloyd Jacqueline Jc" and concatenate them.
+A: The answer is "ahdne"
+INFO:root:pred : ahdne
+INFO:root:GT : adec
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:13st data
+INFO:root:Q: Take the last letters of each words in "Sterling Jenifer Patsy Denise" and concatenate them.
+A: The answer is "gnrfsyse"
+INFO:root:pred : gnrfsyse
+INFO:root:GT : grye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:14st data
+INFO:root:Q: Take the last letters of each words in "Beatriz Gillian Coco Vivian" and concatenate them.
+A: The answer is "zlnon"
+INFO:root:pred : zlnon
+INFO:root:GT : znon
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:15st data
+INFO:root:Q: Take the last letters of each words in "Prince Rene Vishal Patrick" and concatenate them.
+A: The answer is "Eealhtrick"
+INFO:root:pred : Eealhtrick
+INFO:root:GT : eelk
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:16st data
+INFO:root:Q: Take the last letters of each words in "Jae Dennis Cris Bernadette" and concatenate them.
+A: The answer is "e s s e e e e"
+INFO:root:pred : esseeee
+INFO:root:GT : esse
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:17st data
+INFO:root:Q: Take the last letters of each words in "Hank Janine Frankie Isa" and concatenate them.
+A: The answer is "KNEEIEA"
+INFO:root:pred : KNEEIEA
+INFO:root:GT : keea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:18st data
+INFO:root:Q: Take the last letters of each words in "Max Mikey Cynthia Holly" and concatenate them.
+A: The answer is "xyay"
+INFO:root:pred : xyay
+INFO:root:GT : xyay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:19st data
+INFO:root:Q: Take the last letters of each words in "Christy Rey Michelle Dolly" and concatenate them.
+A: The answer is "yeyellely"
+INFO:root:pred : yeyellely
+INFO:root:GT : yyey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:20st data
+INFO:root:pred : eooonres
+INFO:root:GT : eons
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:21st data
+INFO:root:Q: Take the last letters of each words in "Jessy Libby Danielle Red" and concatenate them.
+A: The answer is "ybyelelled".
+INFO:root:pred : ybyelelled
+INFO:root:GT : yyed
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:22st data
+INFO:root:Q: Take the last letters of each words in "Jorge Natalia Bryant Kiran" and concatenate them.
+A: The answer is "eaaan"
+INFO:root:pred : eaaan
+INFO:root:GT : eatn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:23st data
+INFO:root:Q: Take the last letters of each words in "Yan Eunice Joseph Hugh" and concatenate them.
+A: The answer is "NCEPHUGH"
+INFO:root:pred : NCEPHUGH
+INFO:root:GT : nehh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:24st data
+INFO:root:Q: Take the last letters of each words in "Melody Ramiro Humberto Jacob" and concatenate them.
+A: The answer is "yooob"
+INFO:root:pred : yooob
+INFO:root:GT : yoob
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:25st data
+INFO:root:Q: Take the last letters of each words in "Domingo Briana Michael Joan" and concatenate them.
+A: The answer is "oanl"
+INFO:root:pred : oanl
+INFO:root:GT : oaln
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:26st data
+INFO:root:Q: Take the last letters of each words in "Kristopher Deb Jake Tammy" and concatenate them.
+A: The answer is "rerebey"
+INFO:root:pred : rerebey
+INFO:root:GT : rbey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:27st data
+INFO:root:Q: Take the last letters of each words in "Morgan Perla Joao Marta" and concatenate them.
+A: The answer is "nalaaoa"
+INFO:root:pred : nalaaoa
+INFO:root:GT : naoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:28st data
+INFO:root:Q: Take the last letters of each words in "Penny Harry Jessica Horacio" and concatenate them.
+A: The answer is "yyaroc"
+INFO:root:pred : yyaroc
+INFO:root:GT : yyao
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:29st data
+INFO:root:Q: Take the last letters of each words in "Billie Paloma Tanner Raul" and concatenate them.
+A: The answer is "eaealnrl"
+INFO:root:pred : eaealnrl
+INFO:root:GT : earl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:30st data
+INFO:root:Q: Take the last letters of each words in "Rena Devon Rosalinda Paulina" and concatenate them.
+A: The answer is "naoninaa"
+INFO:root:pred : naoninaa
+INFO:root:GT : anaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:31st data
+INFO:root:Q: Take the last letters of each words in "Axel Osvaldo Mildred Sylvia" and concatenate them.
+A: The answer is "l o d o d a".
+INFO:root:pred : lododa
+INFO:root:GT : loda
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:32st data
+INFO:root:Q: Take the last letters of each words in "Emiliano Jasmin Wade Vilma" and concatenate them.
+A: The answer is "onndenmae"
+INFO:root:pred : onndenmae
+INFO:root:GT : onea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:33st data
+INFO:root:Q: Take the last letters of each words in "Lino Mariel Aditya Elisabeth" and concatenate them.
+A: The answer is "oelaih"
+INFO:root:pred : oelaih
+INFO:root:GT : olah
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:34st data
+INFO:root:Q: Take the last letters of each words in "Jacky Socorro Mark Wanda" and concatenate them.
+A: The answer is "yomkda"
+INFO:root:pred : yomkda
+INFO:root:GT : yoka
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:35st data
+INFO:root:Q: Take the last letters of each words in "Mauricio Lee Madi Lizzie" and concatenate them.
+A: The answer is "oeeiieeieeie"
+INFO:root:pred : oeeiieeieeie
+INFO:root:GT : oeie
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:36st data
+INFO:root:Q: Take the last letters of each words in "Ruben Bernardo Ariel Shelley" and concatenate them.
+A: The answer is "NODLLEY"
+INFO:root:pred : NODLLEY
+INFO:root:GT : noly
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:37st data
+INFO:root:Q: Take the last letters of each words in "Phillip Ajay Janie Augusto" and concatenate them.
+A: The answer is "pnyo"
+INFO:root:pred : pnyo
+INFO:root:GT : pyeo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:38st data
+INFO:root:Q: Take the last letters of each words in "Ari Jasmine Elliot Kendrick" and concatenate them.
+A: The answer is "i n t d k"
+INFO:root:pred : intdk
+INFO:root:GT : ietk
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:39st data
+INFO:root:Q: Take the last letters of each words in "Margarita Anabel Shaun Celina" and concatenate them.
+A: The answer is "ataelina"
+INFO:root:pred : ataelina
+INFO:root:GT : alna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:40st data
+INFO:root:Q: Take the last letters of each words in "Geo Kody Isaias Giovanni" and concatenate them.
+A: The answer is "ydsnni"
+INFO:root:pred : ydsnni
+INFO:root:GT : oysi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:41st data
+INFO:root:Q: Take the last letters of each words in "Kennedy Ginny Iliana Sky" and concatenate them.
+A: The answer is "YIYAY"
+INFO:root:pred : YIYAY
+INFO:root:GT : yyay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:42st data
+INFO:root:Q: Take the last letters of each words in "Billy Kassandra Joy Abe" and concatenate them.
+A: The answer is "YAJE"
+INFO:root:pred : YAJE
+INFO:root:GT : yaye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:43st data
+INFO:root:Q: Take the last letters of each words in "Nubia Sarah Jalen Kris" and concatenate them.
+A: The answer is "asnl"
+INFO:root:pred : asnl
+INFO:root:GT : ahns
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:44st data
+INFO:root:Q: Take the last letters of each words in "Ale Gaspar Sonny Simon" and concatenate them.
+A: The answer is "e r n y n"
+INFO:root:pred : ernyn
+INFO:root:GT : eryn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:45st data
+INFO:root:Q: Take the last letters of each words in "Skylar Chrissy Misty Kike" and concatenate them.
+A: The answer is "rsmey"
+INFO:root:pred : rsmey
+INFO:root:GT : ryye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:46st data
+INFO:root:Q: Take the last letters of each words in "Gavin Neha Asha Baltazar" and concatenate them.
+A: The answer is "NHAZAR"
+INFO:root:pred : NHAZAR
+INFO:root:GT : naar
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:47st data
+INFO:root:Q: Take the last letters of each words in "Camilo Becky Eliza Rebecca" and concatenate them.
+A: The answer is "oylea"
+INFO:root:pred : oylea
+INFO:root:GT : oyaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:48st data
+INFO:root:Q: Take the last letters of each words in "Isela Leslie Stacy Ingrid" and concatenate them.
+A: The answer is "alynid"
+INFO:root:pred : alynid
+INFO:root:GT : aeyd
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:49st data
+INFO:root:Q: Take the last letters of each words in "Meg Andrey Gerard Lilia" and concatenate them.
+A: The answer is "dydrdaia"
+INFO:root:pred : dydrdaia
+INFO:root:GT : gyda
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:50st data
+INFO:root:Q: Take the last letters of each words in "Denny Carlo Reinaldo Jessi" and concatenate them.
+A: The answer is "yolosii"
+INFO:root:pred : yolosii
+INFO:root:GT : yooi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:51st data
+INFO:root:Q: Take the last letters of each words in "Cheri Rico Teo Jesus" and concatenate them.
+A: The answer is "iocoos"
+INFO:root:pred : iocoos
+INFO:root:GT : ioos
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:52st data
+INFO:root:Q: Take the last letters of each words in "Alexandria Meghan Autumn Robert" and concatenate them.
+A: The answer is "ariahnert"
+INFO:root:pred : ariahnert
+INFO:root:GT : annt
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:53st data
+INFO:root:Q: Take the last letters of each words in "Jr Meredith Zoe Robby" and concatenate them.
+A: The answer is "rdeoeby"
+INFO:root:pred : rdeoeby
+INFO:root:GT : rhey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:54st data
+INFO:root:Q: Take the last letters of each words in "Pretty Jada Sarita Allen" and concatenate them.
+A: The answer is "yaaen".
+INFO:root:pred : yaaen
+INFO:root:GT : yaan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:55st data
+INFO:root:Q: Take the last letters of each words in "Shari Bella Liza Maira" and concatenate them.
+A: The answer is "i a a a"
+INFO:root:pred : iaaa
+INFO:root:GT : iaaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:56st data
+INFO:root:Q: Take the last letters of each words in "Lazaro Ana Charlotte Precious" and concatenate them.
+A: The answer is "oanarotteious"
+INFO:root:pred : oanarotteious
+INFO:root:GT : oaes
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:57st data
+INFO:root:Q: Take the last letters of each words in "Imelda Andi Mack Rigoberto" and concatenate them.
+A: The answer is "adamkto"
+INFO:root:pred : adamkto
+INFO:root:GT : aiko
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:58st data
+INFO:root:Q: Take the last letters of each words in "Ashish Tracey Varun Emil" and concatenate them.
+A: The answer is "hcnylnl".
+INFO:root:pred : hcnylnl
+INFO:root:GT : hynl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:59st data
+INFO:root:Q: Take the last letters of each words in "Marian Joanne Darrin Rohit" and concatenate them.
+A: The answer is "Nenit"
+INFO:root:pred : Nenit
+INFO:root:GT : nent
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:60st data
+INFO:root:Q: Take the last letters of each words in "Julieta Zachary Jared Tyson" and concatenate them.
+A: The answer is "Aydn"
+INFO:root:pred : Aydn
+INFO:root:GT : aydn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:61st data
+INFO:root:Q: Take the last letters of each words in "Vicente Dayana Kasey Lin" and concatenate them.
+A: The answer is "eaeysn"
+INFO:root:pred : eaeysn
+INFO:root:GT : eayn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:62st data
+INFO:root:Q: Take the last letters of each words in "Craig Dillon Troy Griselda" and concatenate them.
+A: The answer is "nnyoayda"
+INFO:root:pred : nnyoayda
+INFO:root:GT : gnya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:63st data
+INFO:root:Q: Take the last letters of each words in "Rubi Daisy Yadira Santa" and concatenate them.
+A: The answer is "iysa"
+INFO:root:pred : iysa
+INFO:root:GT : iyaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:64st data
+INFO:root:Q: Take the last letters of each words in "Dave Ernesto Liam Marsha" and concatenate them.
+A: The answer is "eotomha"
+INFO:root:pred : eotomha
+INFO:root:GT : eoma
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:65st data
+INFO:root:Q: Take the last letters of each words in "Ira Paola Jose Antonio Maria" and concatenate them.
+A: The answer is "alaenaaia"
+INFO:root:pred : alaenaaia
+INFO:root:GT : aaoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:66st data
+INFO:root:Q: Take the last letters of each words in "Manish Lu Karl Don" and concatenate them.
+A: The answer is "shulon"
+INFO:root:pred : shulon
+INFO:root:GT : huln
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:67st data
+INFO:root:Q: Take the last letters of each words in "Irving Hans Moses Nicole" and concatenate them.
+A: The answer is "GSHSE"
+INFO:root:pred : GSHSE
+INFO:root:GT : gsse
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:68st data
+INFO:root:Q: Take the last letters of each words in "Micaela Kevin Diamond Ty" and concatenate them.
+A: The answer is "alnondy".
+INFO:root:pred : alnondy
+INFO:root:GT : andy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:69st data
+INFO:root:Q: Take the last letters of each words in "Maura Selvin Tabitha Gino" and concatenate them.
+A: The answer is "anahonao"
+INFO:root:pred : anahonao
+INFO:root:GT : anao
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:70st data
+INFO:root:Q: Take the last letters of each words in "Rosendo Shayla Erica Georgia" and concatenate them.
+A: The answer is "oayaa"
+INFO:root:pred : oayaa
+INFO:root:GT : oaaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:71st data
+INFO:root:Q: Take the last letters of each words in "Lorena Shana Priscilla Summer" and concatenate them.
+A: The answer is "anaaillaer"
+INFO:root:pred : anaaillaer
+INFO:root:GT : aaar
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:72st data
+INFO:root:Q: Take the last letters of each words in "Noelle Byron Jane Darin" and concatenate them.
+A: The answer is "e n e n".
+INFO:root:pred : enen
+INFO:root:GT : enen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:73st data
+INFO:root:Q: Take the last letters of each words in "Chava Rosalia Kurt Linda" and concatenate them.
+A: The answer is "avaiaurda"
+INFO:root:pred : avaiaurda
+INFO:root:GT : aata
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:74st data
+INFO:root:Q: Take the last letters of each words in "Meagan Naomi Israel Marie" and concatenate them.
+A: The answer is "nmiemrie"
+INFO:root:pred : nmiemrie
+INFO:root:GT : nile
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:75st data
+INFO:root:Q: Take the last letters of each words in "Michele Karan Abraham Ellen" and concatenate them.
+A: The answer is "e n n n".
+INFO:root:pred : ennn
+INFO:root:GT : enmn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:76st data
+INFO:root:Q: Take the last letters of each words in "Laila Audrey Glenn Rhonda" and concatenate them.
+A: The answer is "alaeyndn"
+INFO:root:pred : alaeyndn
+INFO:root:GT : ayna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:77st data
+INFO:root:Q: Take the last letters of each words in "Regina Joel Justice Eli" and concatenate them.
+A: The answer is "alnlcei"
+INFO:root:pred : alnlcei
+INFO:root:GT : alei
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:78st data
+INFO:root:Q: Take the last letters of each words in "Janet Ant Vickie Elias" and concatenate them.
+A: The answer is "TNTS"
+INFO:root:pred : TNTS
+INFO:root:GT : ttes
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:79st data
+INFO:root:Q: Take the last letters of each words in "Russ Berta Mandy Lydia" and concatenate them.
+A: The answer is "ssayadya"
+INFO:root:pred : ssayadya
+INFO:root:GT : saya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:80st data
+INFO:root:Q: Take the last letters of each words in "Tristan Marleny Santiago Viviana" and concatenate them.
+A: The answer is "nynoia"
+INFO:root:pred : nynoia
+INFO:root:GT : nyoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:81st data
+INFO:root:Q: Take the last letters of each words in "Carole William Tiffany Hilary" and concatenate them.
+A: The answer is "elemylry."
+INFO:root:pred : elemylry
+INFO:root:GT : emyy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:82st data
+INFO:root:Q: Take the last letters of each words in "Amparo Gianna Dion Tessa" and concatenate them.
+A: The answer is "oanonsa"
+INFO:root:pred : oanonsa
+INFO:root:GT : oana
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:83st data
+INFO:root:Q: Take the last letters of each words in "Lewis Azucena Kai Ravi" and concatenate them.
+A: The answer is "ssanai"
+INFO:root:pred : ssanai
+INFO:root:GT : saii
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:84st data
+INFO:root:Q: Take the last letters of each words in "Issa Kendra Ignacio Henry" and concatenate them.
+A: The answer is "Ariaonry"
+INFO:root:pred : Ariaonry
+INFO:root:GT : aaoy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:85st data
+INFO:root:Q: Take the last letters of each words in "Faustino Lamar Fransisco Rina" and concatenate them.
+A: The answer is "onormo"
+INFO:root:pred : onormo
+INFO:root:GT : oroa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:86st data
+INFO:root:Q: Take the last letters of each words in "Angelique Marissa Phyllis Bonnie" and concatenate them.
+A: The answer is "EQUENIE".
+INFO:root:pred : EQUENIE
+INFO:root:GT : ease
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:87st data
+INFO:root:Q: Take the last letters of each words in "Loren Wes Dean Hayley" and concatenate them.
+A: The answer is "NWSNY"
+INFO:root:pred : NWSNY
+INFO:root:GT : nsny
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:88st data
+INFO:root:Q: Take the last letters of each words in "Maxwell Jose Beto Joe" and concatenate them.
+A: The answer is "WJOTEOE"
+INFO:root:pred : WJOTEOE
+INFO:root:GT : leoe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:89st data
+INFO:root:Q: Take the last letters of each words in "Liz Andrea Suresh Vera" and concatenate them.
+A: The answer is "zahera"
+INFO:root:pred : zahera
+INFO:root:GT : zaha
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:90st data
+INFO:root:Q: Take the last letters of each words in "Chantal Ines Valeria Francesca" and concatenate them.
+A: The answer is "lneiaacsa"
+INFO:root:pred : lneiaacsa
+INFO:root:GT : lsaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:91st data
+INFO:root:Q: Take the last letters of each words in "Ron Carl Joann Young" and concatenate them.
+A: The answer is "NLYG"
+INFO:root:pred : NLYG
+INFO:root:GT : nlng
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:92st data
+INFO:root:Q: Take the last letters of each words in "Sally Sadie Christie Ellie" and concatenate them.
+A: The answer is "yeeie".
+INFO:root:pred : yeeie
+INFO:root:GT : yeee
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:93st data
+INFO:root:Q: Take the last letters of each words in "Tomas Nic Zoila Calvin" and concatenate them.
+A: The answer is "snalC"
+INFO:root:pred : snalC
+INFO:root:GT : scan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:94st data
+INFO:root:Q: Take the last letters of each words in "Gabe Dora Aileen Modesto" and concatenate them.
+A: The answer is "EADT"
+INFO:root:pred : EADT
+INFO:root:GT : eano
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:95st data
+INFO:root:Q: Take the last letters of each words in "Victoria Aurora Amalia Princess" and concatenate them.
+A: The answer is "AAAHS"
+INFO:root:pred : AAAHS
+INFO:root:GT : aaas
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:96st data
+INFO:root:Q: Take the last letters of each words in "Alec Arianna Corina Juancarlos" and concatenate them.
+A: The answer is "Cnnas"
+INFO:root:pred : Cnnas
+INFO:root:GT : caas
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:97st data
+INFO:root:Q: Take the last letters of each words in "Carolyn Sasha Mercy Keri" and concatenate them.
+A: The answer is "NHSY."
+INFO:root:pred : NHSY
+INFO:root:GT : nayi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:98st data
+INFO:root:Q: Take the last letters of each words in "Selena Keisha Gladys Cedric" and concatenate them.
+A: The answer is "anahsycs"
+INFO:root:pred : anahsycs
+INFO:root:GT : aasc
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:99st data
+INFO:root:Q: Take the last letters of each words in "Salma Pj Gladis Monica" and concatenate them.
+A: The answer is "apscia"
+INFO:root:pred : apscia
+INFO:root:GT : ajsa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:100st data
+INFO:root:Q: Take the last letters of each words in "Ralph Jeanne Kyle Alejandro" and concatenate them.
+A: The answer is "phneeye
+INFO:root:pred : phneeye
+INFO:root:GT : heeo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:101st data
+INFO:root:Q: Take the last letters of each words in "Letty Aimee Elvia Ted" and concatenate them.
+A: The answer is "Yeevad"
+INFO:root:pred : Yeevad
+INFO:root:GT : yead
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:102st data
+INFO:root:Q: Take the last letters of each words in "April Molly Maurice Jaclyn" and concatenate them.
+A: The answer is "Llyieyn"
+INFO:root:pred : Llyieyn
+INFO:root:GT : lyen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:103st data
+INFO:root:Q: Take the last letters of each words in "Markus Kathryn Giovanna Kent" and concatenate them.
+A: The answer is "ssnnaent"
+INFO:root:pred : ssnnaent
+INFO:root:GT : snat
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:104st data
+INFO:root:Q: Take the last letters of each words in "Desmond Camille Joana Garcia" and concatenate them.
+A: The answer is "dcjg"
+INFO:root:pred : dcjg
+INFO:root:GT : deaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:105st data
+INFO:root:Q: Take the last letters of each words in "Quinton Sam Soledad Becca" and concatenate them.
+A: The answer is "nmdacca"
+INFO:root:pred : nmdacca
+INFO:root:GT : nmda
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:106st data
+INFO:root:Q: Take the last letters of each words in "Matilde Jan Marcel Mimi" and concatenate them.
+A: The answer is "e n l i i"
+INFO:root:pred : enlii
+INFO:root:GT : enli
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:107st data
+INFO:root:Q: Take the last letters of each words in "Manolo Bobbie Ash Jaqueline" and concatenate them.
+A: The answer is "oeehne"
+INFO:root:pred : oeehne
+INFO:root:GT : oehe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:108st data
+INFO:root:Q: Take the last letters of each words in "Jorge Luis Mo Alexia Jerry" and concatenate them.
+A: The answer is "e s o a y"
+INFO:root:pred : esoay
+INFO:root:GT : soay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:109st data
+INFO:root:Q: Take the last letters of each words in "Kali Jeanette Tess Devin" and concatenate them.
+A: The answer is "i e e s n".
+INFO:root:pred : ieesn
+INFO:root:GT : iesn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:110st data
+INFO:root:Q: Take the last letters of each words in "Nabil Marlene Wendy Jillian" and concatenate them.
+A: The answer is "Leneyn"
+INFO:root:pred : Leneyn
+INFO:root:GT : leyn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:111st data
+INFO:root:Q: Take the last letters of each words in "Charity Svetlana Jamie Jose A" and concatenate them.
+A: The answer is "yaeae"
+INFO:root:pred : yaeae
+INFO:root:GT : yaeA
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:112st data
+INFO:root:Q: Take the last letters of each words in "Dalila Emily Casey Clifford" and concatenate them.
+A: The answer is "alay"
+INFO:root:pred : alay
+INFO:root:GT : ayyd
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:113st data
+INFO:root:Q: Take the last letters of each words in "Blake Hunter Lou Spencer" and concatenate them.
+A: The answer is "Eer"
+INFO:root:pred : Eer
+INFO:root:GT : erur
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:114st data
+INFO:root:Q: Take the last letters of each words in "Donny Lucero Christopher Gregory" and concatenate them.
+A: The answer is "yocrohergy"
+INFO:root:pred : yocrohergy
+INFO:root:GT : yory
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:115st data
+INFO:root:Q: Take the last letters of each words in "Hayden Maya Zack Roberto" and concatenate them.
+A: The answer is "NRYO"
+INFO:root:pred : NRYO
+INFO:root:GT : nako
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:116st data
+INFO:root:Q: Take the last letters of each words in "Jes¨²s Vidal Maxine Gloria" and concatenate them.
+A: The answer is "slanEa"
+INFO:root:pred : slanEa
+INFO:root:GT : slea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:117st data
+INFO:root:Q: Take the last letters of each words in "Madeline Mckenzie Louie Dylan" and concatenate them.
+A: The answer is "e e e e n e i n".
+INFO:root:pred : eeeenein
+INFO:root:GT : eeen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:118st data
+INFO:root:Q: Take the last letters of each words in "Anastasia Thelma Sheri Rosita" and concatenate them.
+A: The answer is "Aaehriota"
+INFO:root:pred : Aaehriota
+INFO:root:GT : aaia
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:119st data
+INFO:root:Q: Take the last letters of each words in "Guillermina Evelin Dominique Johnny" and concatenate them.
+A: The answer is "anaynqy"
+INFO:root:pred : anaynqy
+INFO:root:GT : aney
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:120st data
+INFO:root:Q: Take the last letters of each words in "Sid Isabelle Jackson Heidy" and concatenate them.
+A: The answer is "dsenonidy"
+INFO:root:pred : dsenonidy
+INFO:root:GT : deny
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:121st data
+INFO:root:Q: Take the last letters of each words in "Margaret Rosi Willy Charlene" and concatenate them.
+A: The answer is "tisylene"
+INFO:root:pred : tisylene
+INFO:root:GT : tiye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:122st data
+INFO:root:Q: Take the last letters of each words in "Carla Dolores Cooper Damion" and concatenate them.
+A: The answer is "alaesrroon"
+INFO:root:pred : alaesrroon
+INFO:root:GT : asrn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:123st data
+INFO:root:Q: Take the last letters of each words in "Davis Jules Fabiola Cherie" and concatenate them.
+A: The answer is "Ssaeie"
+INFO:root:pred : Ssaeie
+INFO:root:GT : ssae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:124st data
+INFO:root:Q: Take the last letters of each words in "Raven Marisela Ross Angie" and concatenate them.
+A: The answer is "Nala Ssa Eie"
+INFO:root:pred : NalaSsaEie
+INFO:root:GT : nase
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:125st data
+INFO:root:Q: Take the last letters of each words in "Jeff Jen Giselle Noel" and concatenate them.
+A: The answer is "ffnl"
+INFO:root:pred : ffnl
+INFO:root:GT : fnel
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:126st data
+INFO:root:Q: Take the last letters of each words in "Kristi Eduardo Angelo Clare" and concatenate them.
+A: The answer is "i o o e e e e".
+INFO:root:pred : iooeeee
+INFO:root:GT : iooe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:127st data
+INFO:root:Q: Take the last letters of each words in "Alina Alessandra Amina Bianca" and concatenate them.
+A: The answer is "Anaaraaiaa."
+INFO:root:pred : Anaaraaiaa
+INFO:root:GT : aaaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:128st data
+INFO:root:Q: Take the last letters of each words in "Zach Trenton Cary Beth" and concatenate them.
+A: The answer is "hnny".
+INFO:root:pred : hnny
+INFO:root:GT : hnyh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:129st data
+INFO:root:Q: Take the last letters of each words in "Altagracia Howard Patti Douglas" and concatenate them.
+A: The answer is "ahwittlas"
+INFO:root:pred : ahwittlas
+INFO:root:GT : adis
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:130st data
+INFO:root:Q: Take the last letters of each words in "Jordan Yoni Lawrence Aura" and concatenate them.
+A: The answer is "NIRA"
+INFO:root:pred : NIRA
+INFO:root:GT : niea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:131st data
+INFO:root:Q: Take the last letters of each words in "Leticia Jacinto Natasha Raphael" and concatenate them.
+A: The answer is "acahael"
+INFO:root:pred : acahael
+INFO:root:GT : aoal
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:132st data
+INFO:root:Q: Take the last letters of each words in "Mickey Dom Lilly Eloy" and concatenate them.
+A: The answer is "ymllyy".
+INFO:root:pred : ymllyy
+INFO:root:GT : ymyy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:133st data
+INFO:root:Q: Take the last letters of each words in "Timmy Katherine Gabriel Nate" and concatenate them.
+A: The answer is "yenelel"
+INFO:root:pred : yenelel
+INFO:root:GT : yele
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:134st data
+INFO:root:Q: Take the last letters of each words in "Raymundo Jonathon Lexi Rony" and concatenate them.
+A: The answer is "oohyni"
+INFO:root:pred : oohyni
+INFO:root:GT : oniy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:135st data
+INFO:root:Q: Take the last letters of each words in "Amy Ella Amilcar Roman" and concatenate them.
+A: The answer is "YALR"
+INFO:root:pred : YALR
+INFO:root:GT : yarn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:136st data
+INFO:root:Q: Take the last letters of each words in "Bailey Lourdes Brianna Mart¨ªn" and concatenate them.
+A: The answer is "eydsnn"
+INFO:root:pred : eydsnn
+INFO:root:GT : ysan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:137st data
+INFO:root:Q: Take the last letters of each words in "Daniella Dianne Ram Mirian" and concatenate them.
+A: The answer is "alnairn"
+INFO:root:pred : alnairn
+INFO:root:GT : aemn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:138st data
+INFO:root:Q: Take the last letters of each words in "Rosie Charlie Mick Jacquelyn" and concatenate them.
+A: The answer is "EIEKLN"
+INFO:root:pred : EIEKLN
+INFO:root:GT : eekn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:139st data
+INFO:root:Q: Take the last letters of each words in "Ericka Aly Darius Reed" and concatenate them.
+A: The answer is "akaidsed"
+INFO:root:pred : akaidsed
+INFO:root:GT : aysd
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:140st data
+INFO:root:Q: Take the last letters of each words in "Glenda Beverly Agustin Igor" and concatenate them.
+A: The answer is "adnA"
+INFO:root:pred : adnA
+INFO:root:GT : aynr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:141st data
+INFO:root:Q: Take the last letters of each words in "Dino Toby Abigail Manuela" and concatenate them.
+A: The answer is "oynl".
+INFO:root:pred : oynl
+INFO:root:GT : oyla
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:142st data
+INFO:root:Q: Take the last letters of each words in "Shannon Millie Rosemary Priyanka" and concatenate them.
+A: The answer is "nnieyanka"
+INFO:root:pred : nnieyanka
+INFO:root:GT : neya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:143st data
+INFO:root:Q: Take the last letters of each words in "Cristian Nik Gwen Josiah" and concatenate them.
+A: The answer is "Nikweniah"
+INFO:root:pred : Nikweniah
+INFO:root:GT : nknh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:144st data
+INFO:root:Q: Take the last letters of each words in "Garry Arielle Elba Rodney" and concatenate them.
+A: The answer is "yeeay"
+INFO:root:pred : yeeay
+INFO:root:GT : yeay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:145st data
+INFO:root:Q: Take the last letters of each words in "Clarissa Shauna Alexis Branden" and concatenate them.
+A: The answer is "assnandn"
+INFO:root:pred : assnandn
+INFO:root:GT : aasn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:146st data
+INFO:root:Q: Take the last letters of each words in "Barb Gage Kristian Asia" and concatenate them.
+A: The answer is "bgean"
+INFO:root:pred : bgean
+INFO:root:GT : bena
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:147st data
+INFO:root:Q: Take the last letters of each words in "Emilia Jonas Christi Sophia" and concatenate them.
+A: The answer is "ashtia"
+INFO:root:pred : ashtia
+INFO:root:GT : asia
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:148st data
+INFO:root:Q: Take the last letters of each words in "Sonia Griffin Claude Josephine" and concatenate them.
+A: The answer is "anfne"
+INFO:root:pred : anfne
+INFO:root:GT : anee
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:149st data
+INFO:root:Q: Take the last letters of each words in "Arthur Shan Norman Manny" and concatenate them.
+A: The answer is "rnnym".
+INFO:root:pred : rnnym
+INFO:root:GT : rnny
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:150st data
+INFO:root:Q: Take the last letters of each words in "Abdi Clyde Ana Maria Pepe" and concatenate them.
+A: The answer is "Eeeyeppe"
+INFO:root:pred : Eeeyeppe
+INFO:root:GT : ieae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:151st data
+INFO:root:Q: Take the last letters of each words in "Scotty Edgar Hanna Austin" and concatenate them.
+A: The answer is "yraa".
+INFO:root:pred : yraa
+INFO:root:GT : yran
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:152st data
+INFO:root:Q: Take the last letters of each words in "Denis Gigi Heather Ginger" and concatenate them.
+A: The answer is "sisigirer".
+INFO:root:pred : sisigirer
+INFO:root:GT : sirr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:153st data
+INFO:root:Q: Take the last letters of each words in "Steph Pablo Ceci Francine" and concatenate them.
+A: The answer is "hlolnne"
+INFO:root:pred : hlolnne
+INFO:root:GT : hoie
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:154st data
+INFO:root:Q: Take the last letters of each words in "Orlando Colby Julius Ofelia" and concatenate them.
+A: The answer is "oyusia"
+INFO:root:pred : oyusia
+INFO:root:GT : oysa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:155st data
+INFO:root:Q: Take the last letters of each words in "Rogelio Freddy Ivan Madeleine" and concatenate them.
+A: The answer is "oynen"
+INFO:root:pred : oynen
+INFO:root:GT : oyne
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:156st data
+INFO:root:Q: Take the last letters of each words in "Marshall Herman Faye Grant" and concatenate them.
+A: The answer is "llnayt."
+INFO:root:pred : llnayt
+INFO:root:GT : lnet
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:157st data
+INFO:root:Q: Take the last letters of each words in "Bernard Lidia Sebastian Judy" and concatenate them.
+A: The answer is "DYAN"
+INFO:root:pred : DYAN
+INFO:root:GT : dany
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:158st data
+INFO:root:Q: Take the last letters of each words in "Kyra Luciano Ciara Bryan" and concatenate them.
+A: The answer is "anorayn"
+INFO:root:pred : anorayn
+INFO:root:GT : aoan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:159st data
+INFO:root:Q: Take the last letters of each words in "Myriam Jos¨¦ Cecy Faisal" and concatenate them.
+A: The answer is "MJCF"
+INFO:root:pred : MJCF
+INFO:root:GT : m¨¦yl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:160st data
+INFO:root:Q: Take the last letters of each words in "Memo Joey Phil Samuel" and concatenate them.
+A: The answer is "oypmuel"
+INFO:root:pred : oypmuel
+INFO:root:GT : oyll
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:161st data
+INFO:root:Q: Take the last letters of each words in "Angel Sheryl Dulce Kenny" and concatenate them.
+A: The answer is "leryecee".
+INFO:root:pred : leryecee
+INFO:root:GT : lley
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:162st data
+INFO:root:Q: Take the last letters of each words in "Selina Tasha Jarrod Maddy" and concatenate them.
+A: The answer is "anadym"
+INFO:root:pred : anadym
+INFO:root:GT : aady
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:163st data
+INFO:root:Q: Take the last letters of each words in "Talia Nicki Tia Divya" and concatenate them.
+A: The answer is "alia icki ia ivya"
+INFO:root:pred : aliaickiiaivya
+INFO:root:GT : aiaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:164st data
+INFO:root:Q: Take the last letters of each words in "Franklin Rochelle Brent Sarai" and concatenate them.
+A: The answer is "NLRNIT"
+INFO:root:pred : NLRNIT
+INFO:root:GT : neti
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:165st data
+INFO:root:Q: Take the last letters of each words in "Clinton Yanira Barbara Betsy" and concatenate them.
+A: The answer is "onaraaray"
+INFO:root:pred : onaraaray
+INFO:root:GT : naay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:166st data
+INFO:root:Q: Take the last letters of each words in "Ronnie Kiki Alan Remy" and concatenate them.
+A: The answer is "EIKIANY"
+INFO:root:pred : EIKIANY
+INFO:root:GT : einy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:167st data
+INFO:root:Q: Take the last letters of each words in "Erwin Chad Margarito Shanna" and concatenate them.
+A: The answer is "nndotnna"
+INFO:root:pred : nndotnna
+INFO:root:GT : ndoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:168st data
+INFO:root:Q: Take the last letters of each words in "Connie Elena Tami Stuart" and concatenate them.
+A: The answer is "eeiart"
+INFO:root:pred : eeiart
+INFO:root:GT : eait
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:169st data
+INFO:root:Q: Take the last letters of each words in "Blaine Syed Priya Ruby" and concatenate them.
+A: The answer is "Eeday"
+INFO:root:pred : Eeday
+INFO:root:GT : eday
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:170st data
+INFO:root:Q: Take the last letters of each words in "Fernanda Magda Elmer Alvaro" and concatenate them.
+A: The answer is "adagro"
+INFO:root:pred : adagro
+INFO:root:GT : aaro
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:171st data
+INFO:root:Q: Take the last letters of each words in "Anand Estefania Stanley Lizette" and concatenate them.
+A: The answer is "dnay"
+INFO:root:pred : dnay
+INFO:root:GT : daye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:172st data
+INFO:root:Q: Take the last letters of each words in "Sunil Tiana Darla Darnell" and concatenate them.
+A: The answer is "LNLAA"
+INFO:root:pred : LNLAA
+INFO:root:GT : laal
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:173st data
+INFO:root:Q: Take the last letters of each words in "Eugenio Moises Marion Kirk" and concatenate them.
+A: The answer is "Osesnionk"
+INFO:root:pred : Osesnionk
+INFO:root:GT : osnk
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:174st data
+INFO:root:Q: Take the last letters of each words in "Marty Justine Edgardo Osman" and concatenate them.
+A: The answer is "YNEO"
+INFO:root:pred : YNEO
+INFO:root:GT : yeon
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:175st data
+INFO:root:Q: Take the last letters of each words in "Tucker Daniel Hernandez Alison" and concatenate them.
+A: The answer is "RDAH"
+INFO:root:pred : RDAH
+INFO:root:GT : rlzn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:176st data
+INFO:root:Q: Take the last letters of each words in "Sherri Genesis Jeffrey Samir" and concatenate them.
+A: The answer is "iiyssr"
+INFO:root:pred : iiyssr
+INFO:root:GT : isyr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:177st data
+INFO:root:Q: Take the last letters of each words in "Cat Alisha Ramon Norberto" and concatenate them.
+A: The answer is "tahon"
+INFO:root:pred : tahon
+INFO:root:GT : tano
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:178st data
+INFO:root:Q: Take the last letters of each words in "Hilario Magdalena Morris Patricio" and concatenate them.
+A: The answer is "oanaiso"
+INFO:root:pred : oanaiso
+INFO:root:GT : oaso
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:179st data
+INFO:root:Q: Take the last letters of each words in "Fausto Tito Jade Terrance" and concatenate them.
+A: The answer is "o o e e".
+INFO:root:pred : ooee
+INFO:root:GT : ooee
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:180st data
+INFO:root:Q: Take the last letters of each words in "Gayle Doreen Chelsey Helena" and concatenate them.
+A: The answer is "EYENEA."
+INFO:root:pred : EYENEA
+INFO:root:GT : enya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:181st data
+INFO:root:Q: Take the last letters of each words in "Lucio V¨ªctor Lester Allie" and concatenate them.
+A: The answer is "o r r e e".
+INFO:root:pred : orree
+INFO:root:GT : orre
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:182st data
+INFO:root:Q: Take the last letters of each words in "Donnie Alli Terry Krystal" and concatenate them.
+A: The answer is "Eirtlliyral"
+INFO:root:pred : Eirtlliyral
+INFO:root:GT : eiyl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:183st data
+INFO:root:Q: Take the last letters of each words in "Carlos Jackie Callie Caitlin" and concatenate them.
+A: The answer is "soln".
+INFO:root:pred : soln
+INFO:root:GT : seen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:184st data
+INFO:root:Q: Take the last letters of each words in "Debi Raymond Luis Federico" and concatenate them.
+A: The answer is "i d o s o"
+INFO:root:pred : idoso
+INFO:root:GT : idso
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:185st data
+INFO:root:Q: Take the last letters of each words in "Kelvin Brennan Carina Paty" and concatenate them.
+A: The answer is "Nnnya
+INFO:root:pred : Nnnya
+INFO:root:GT : nnay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:186st data
+INFO:root:Q: Take the last letters of each words in "Janice Shelly Arnulfo Nestor" and concatenate them.
+A: The answer is "EYOFOT".
+INFO:root:pred : EYOFOT
+INFO:root:GT : eyor
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:187st data
+INFO:root:Q: Take the last letters of each words in "Bob Aman Richie Sana" and concatenate them.
+A: The answer is "NARH"
+INFO:root:pred : NARH
+INFO:root:GT : bnea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:188st data
+INFO:root:Q: Take the last letters of each words in "Juan Jose Dalia Destiny Amelia" and concatenate them.
+A: The answer is "nseyma"
+INFO:root:pred : nseyma
+INFO:root:GT : eaya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:189st data
+INFO:root:Q: Take the last letters of each words in "Jose Luis Kiara Arun Josefina" and concatenate them.
+A: The answer is "esrana"
+INFO:root:pred : esrana
+INFO:root:GT : sana
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:190st data
+INFO:root:Q: Take the last letters of each words in "Guillermo Gerry Lizbeth Charly" and concatenate them.
+A: The answer is "oynyl".
+INFO:root:pred : oynyl
+INFO:root:GT : oyhy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:191st data
+INFO:root:Q: Take the last letters of each words in "Reginald Franky Kira Gordon" and concatenate them.
+A: The answer is "dlkyan."
+INFO:root:pred : dlkyan
+INFO:root:GT : dyan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:192st data
+INFO:root:Q: Take the last letters of each words in "Bret Lois Ismael Mirna" and concatenate them.
+A: The answer is "tsslna"
+INFO:root:pred : tsslna
+INFO:root:GT : tsla
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:193st data
+INFO:root:Q: Take the last letters of each words in "Peggy Trent Darrell Pamela" and concatenate them.
+A: The answer is "YTNLMLA"
+INFO:root:pred : YTNLMLA
+INFO:root:GT : ytla
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:194st data
+INFO:root:Q: Take the last letters of each words in "Sophie Gregorio Avery Pooja" and concatenate them.
+A: The answer is "EYEOJA"
+INFO:root:pred : EYEOJA
+INFO:root:GT : eoya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:195st data
+INFO:root:Q: Take the last letters of each words in "Yvonne Rafaela Jb Salomon" and concatenate them.
+A: The answer is "eaebln"
+INFO:root:pred : eaebln
+INFO:root:GT : eabn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:196st data
+INFO:root:Q: Take the last letters of each words in "Gabi Dante Rafa Tricia" and concatenate them.
+A: The answer is "i e a a"
+INFO:root:pred : ieaa
+INFO:root:GT : ieaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:197st data
+INFO:root:Q: Take the last letters of each words in "Martin Sage Tanisha Rick" and concatenate them.
+A: The answer is "NSHAR"
+INFO:root:pred : NSHAR
+INFO:root:GT : neak
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:198st data
+INFO:root:Q: Take the last letters of each words in "Suzanne Julissa Chino America" and concatenate them.
+A: The answer is "EJNA"
+INFO:root:pred : EJNA
+INFO:root:GT : eaoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:199st data
+INFO:root:Q: Take the last letters of each words in "Mel Josh Alejandra Harley" and concatenate them.
+A: The answer is "lraeley"
+INFO:root:pred : lraeley
+INFO:root:GT : lhay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:200st data
+INFO:root:Q: Take the last letters of each words in "Candy Megan Ed Nathan" and concatenate them.
+A: The answer is "yndn".
+INFO:root:pred : yndn
+INFO:root:GT : yndn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:201st data
+INFO:root:Q: Take the last letters of each words in "Diego Val Vincent Stacie" and concatenate them.
+A: The answer is "oelnetie".
+INFO:root:pred : oelnetie
+INFO:root:GT : olte
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:202st data
+INFO:root:Q: Take the last letters of each words in "Salvatore Gustavo Jill Celeste" and concatenate them.
+A: The answer is "Eeooelte"
+INFO:root:pred : Eeooelte
+INFO:root:GT : eole
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:203st data
+INFO:root:Q: Take the last letters of each words in "Marcy Gonzalez Alice Arlene" and concatenate them.
+A: The answer is "yzsne".
+INFO:root:pred : yzsne
+INFO:root:GT : yzee
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:204st data
+INFO:root:Q: Take the last letters of each words in "Dana German Alvin Braden" and concatenate them.
+A: The answer is "anaermanlvinaden"
+INFO:root:pred : anaermanlvinaden
+INFO:root:GT : annn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:205st data
+INFO:root:Q: Take the last letters of each words in "Paula Irina Laurel Maribel" and concatenate them.
+A: The answer is "aula Irina Laurel Maribel"
+INFO:root:pred : aulaIrinaLaurelMaribel
+INFO:root:GT : aall
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:206st data
+INFO:root:Q: Take the last letters of each words in "Andr¨¦s Miles Ronaldo Melinda" and concatenate them.
+A: The answer is "ssesolaa"
+INFO:root:pred : ssesolaa
+INFO:root:GT : ssoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:207st data
+INFO:root:Q: Take the last letters of each words in "Williams Reza Ashton Lillian" and concatenate them.
+A: The answer is "smn n"
+INFO:root:pred : smnn
+INFO:root:GT : sann
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:208st data
+INFO:root:Q: Take the last letters of each words in "Lacey Nora Debra Ashleigh" and concatenate them.
+A: The answer is "yareah"
+INFO:root:pred : yareah
+INFO:root:GT : yaah
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:209st data
+INFO:root:Q: Take the last letters of each words in "Itzel Anderson Kenia Edy" and concatenate them.
+A: The answer is "lrsnaydy"
+INFO:root:pred : lrsnaydy
+INFO:root:GT : lnay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:210st data
+INFO:root:Q: Take the last letters of each words in "Forrest Juanito Allan Candice" and concatenate them.
+A: The answer is "ttoeenc"
+INFO:root:pred : ttoeenc
+INFO:root:GT : tone
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:211st data
+INFO:root:Q: Take the last letters of each words in "Nico Lorenzo Johanna Teresita" and concatenate them.
+A: The answer is "o o a a"
+INFO:root:pred : ooaa
+INFO:root:GT : ooaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:212st data
+INFO:root:Q: Take the last letters of each words in "Paulo Tatyana Bernice Ra¨²l" and concatenate them.
+A: The answer is "oanec¨²l"
+INFO:root:pred : oanec¨²l
+INFO:root:GT : oael
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:213st data
+INFO:root:Q: Take the last letters of each words in "Lionel Fiona Bobby Janeth" and concatenate them.
+A: The answer is "Lionel Fiona Bobby Janeth" would result in "lnoy".
+INFO:root:pred : LionelFionaBobbyJanethwouldresultinlnoy
+INFO:root:GT : layh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:214st data
+INFO:root:Q: Take the last letters of each words in "Dany Hilda Butch Mahesh" and concatenate them.
+A: The answer is "yhchsh"
+INFO:root:pred : yhchsh
+INFO:root:GT : yahh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:215st data
+INFO:root:Q: Take the last letters of each words in "Deon Lane Everett Lindsay" and concatenate them.
+A: The answer is "n e t y d y."
+INFO:root:pred : netydy
+INFO:root:GT : nety
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:216st data
+INFO:root:Q: Take the last letters of each words in "Ubaldo Katrina Francis Lynn" and concatenate them.
+A: The answer is "oanisn".
+INFO:root:pred : oanisn
+INFO:root:GT : oasn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:217st data
+INFO:root:Q: Take the last letters of each words in "Lesley Luna Nadia Adriana" and concatenate them.
+A: The answer is "yaaana"
+INFO:root:pred : yaaana
+INFO:root:GT : yaaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:218st data
+INFO:root:Q: Take the last letters of each words in "Maureen Fabian Claudette Peyton" and concatenate them.
+A: The answer is "NFTT".
+INFO:root:pred : NFTT
+INFO:root:GT : nnen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:219st data
+INFO:root:Q: Take the last letters of each words in "Gabby Reese Leah Celia" and concatenate them.
+A: The answer is "eyahia"
+INFO:root:pred : eyahia
+INFO:root:GT : yeha
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:220st data
+INFO:root:Q: Take the last letters of each words in "Ramona Lucy Gail Octavio" and concatenate them.
+A: The answer is "anaylvo"
+INFO:root:pred : anaylvo
+INFO:root:GT : aylo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:221st data
+INFO:root:Q: Take the last letters of each words in "Sue Cassandra Cody Cali" and concatenate them.
+A: The answer is "eaaayi"
+INFO:root:pred : eaaayi
+INFO:root:GT : eayi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:222st data
+INFO:root:Q: Take the last letters of each words in "Efrain Rickey Jonathan Kelli" and concatenate them.
+A: The answer is "Nney"
+INFO:root:pred : Nney
+INFO:root:GT : nyni
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:223st data
+INFO:root:Q: Take the last letters of each words in "Efren Rex Marilyn Emerson" and concatenate them.
+A: The answer is "NXYN".
+INFO:root:pred : NXYN
+INFO:root:GT : nxnn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:224st data
+INFO:root:Q: Take the last letters of each words in "Bobbi Tamika Zac Lala" and concatenate them.
+A: The answer is "i a c a"
+INFO:root:pred : iaca
+INFO:root:GT : iaca
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:225st data
+INFO:root:Q: Take the last letters of each words in "Kendall Matias Kaleb Randy" and concatenate them.
+A: The answer is "llasbe"
+INFO:root:pred : llasbe
+INFO:root:GT : lsby
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:226st data
+INFO:root:Q: Take the last letters of each words in "Armando Astrid Anibal Dakota" and concatenate them.
+A: The answer is "o d a a"
+INFO:root:pred : odaa
+INFO:root:GT : odla
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:227st data
+INFO:root:Q: Take the last letters of each words in "Lamont Frederick Lance Esperanza" and concatenate them.
+A: The answer is "TDRKCEA"
+INFO:root:pred : TDRKCEA
+INFO:root:GT : tkea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:228st data
+INFO:root:Q: Take the last letters of each words in "Lynda Danilo Jonny Judith" and concatenate them.
+A: The answer is "adonnyh."
+INFO:root:pred : adonnyh
+INFO:root:GT : aoyh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:229st data
+INFO:root:Q: Take the last letters of each words in "Deandre Moe Jack Vanessa" and concatenate them.
+A: The answer is "ereoeacka"
+INFO:root:pred : ereoeacka
+INFO:root:GT : eeka
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:230st data
+INFO:root:Q: Take the last letters of each words in "Tere Niko Keith Conner" and concatenate them.
+A: The answer is "eooer"
+INFO:root:pred : eooer
+INFO:root:GT : eohr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:231st data
+INFO:root:Q: Take the last letters of each words in "Kelly Cheryl Nancy Jojo" and concatenate them.
+A: The answer is "ylrlyojo"
+INFO:root:pred : ylrlyojo
+INFO:root:GT : ylyo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:232st data
+INFO:root:Q: Take the last letters of each words in "H¨¦ctor Daniela Rossy Jose Manuel" and concatenate them.
+A: The answer is "r a y a l e u l"
+INFO:root:pred : rayaleul
+INFO:root:GT : rayl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:233st data
+INFO:root:Q: Take the last letters of each words in "Carissa Paige Consuelo Izzy" and concatenate them.
+A: The answer is "assgeoloizzy"
+INFO:root:pred : assgeoloizzy
+INFO:root:GT : aeoy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:234st data
+INFO:root:Q: Take the last letters of each words in "Wilson Abbey Harold Nelly" and concatenate them.
+A: The answer is "nyahdly"
+INFO:root:pred : nyahdly
+INFO:root:GT : nydy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:235st data
+INFO:root:Q: Take the last letters of each words in "Tiara Araceli Michaela Genaro" and concatenate them.
+A: The answer is "araiaaelaaro"
+INFO:root:pred : araiaaelaaro
+INFO:root:GT : aiao
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:236st data
+INFO:root:Q: Take the last letters of each words in "Alexa Pilar Rod Nicola" and concatenate them.
+A: The answer is "arlaodica"
+INFO:root:pred : arlaodica
+INFO:root:GT : arda
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:237st data
+INFO:root:Q: Take the last letters of each words in "Yamileth Dane Aron Dee" and concatenate them.
+A: The answer is "he ne on e"
+INFO:root:pred : heneone
+INFO:root:GT : hene
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:238st data
+INFO:root:Q: Take the last letters of each words in "Rachel Alisa Fanny Jeffery" and concatenate them.
+A: The answer is "lssy"
+INFO:root:pred : lssy
+INFO:root:GT : layy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:239st data
+INFO:root:Q: Take the last letters of each words in "Manuel Aurelio India Rosalba" and concatenate them.
+A: The answer is "l o a a a"
+INFO:root:pred : loaaa
+INFO:root:GT : loaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:240st data
+INFO:root:Q: Take the last letters of each words in "Garrett Eva Joaquin Monique" and concatenate them.
+A: The answer is "tttnue"
+INFO:root:pred : tttnue
+INFO:root:GT : tane
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:241st data
+INFO:root:Q: Take the last letters of each words in "Ivy Romeo Jana Ej" and concatenate them.
+A: The answer is "yoea".
+INFO:root:pred : yoea
+INFO:root:GT : yoaj
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:242st data
+INFO:root:Q: Take the last letters of each words in "Yajaira Terrell Adam Lexie" and concatenate them.
+A: The answer is "araellmexie"
+INFO:root:pred : araellmexie
+INFO:root:GT : alme
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:243st data
+INFO:root:Q: Take the last letters of each words in "Virginia Juanita Zak Wayne" and concatenate them.
+A: The answer is "aaakne".
+INFO:root:pred : aaakne
+INFO:root:GT : aake
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:244st data
+INFO:root:Q: Take the last letters of each words in "Mari Ximena Leo Antonia" and concatenate them.
+A: The answer is "iaoa"
+INFO:root:pred : iaoa
+INFO:root:GT : iaoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:245st data
+INFO:root:Q: Take the last letters of each words in "Salvador Sol Tyler Kareem" and concatenate them.
+A: The answer is "r r r m"
+INFO:root:pred : rrrm
+INFO:root:GT : rlrm
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:246st data
+INFO:root:Q: Take the last letters of each words in "Allyson Mara Jo Toni" and concatenate them.
+A: The answer is "NaraJoni"
+INFO:root:pred : NaraJoni
+INFO:root:GT : naoi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:247st data
+INFO:root:Q: Take the last letters of each words in "Rocio Sandy Anahi Latasha" and concatenate them.
+A: The answer is "ociah"
+INFO:root:pred : ociah
+INFO:root:GT : oyia
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:248st data
+INFO:root:Q: Take the last letters of each words in "Vicki Dwight Johnson Alexandra" and concatenate them.
+A: The answer is "ihtnra"
+INFO:root:pred : ihtnra
+INFO:root:GT : itna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:249st data
+INFO:root:Q: Take the last letters of each words in "Emma Maryann Olga Nataly" and concatenate them.
+A: The answer is "aynnalOylataN"
+INFO:root:pred : aynnalOylataN
+INFO:root:GT : anay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:250st data
+INFO:root:Q: Take the last letters of each words in "Belkis Wendell Lissette Patricia" and concatenate them.
+A: The answer is "skislltteia"
+INFO:root:pred : skislltteia
+INFO:root:GT : slea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:251st data
+INFO:root:Q: Take the last letters of each words in "Ever Gio Elia Ramesh" and concatenate them.
+A: The answer is "r o a h"
+INFO:root:pred : roah
+INFO:root:GT : roah
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:252st data
+INFO:root:Q: Take the last letters of each words in "Dallas Uriel Brendan Julian" and concatenate them.
+A: The answer is "slsnldn".
+INFO:root:pred : slsnldn
+INFO:root:GT : slnn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:253st data
+INFO:root:Q: Take the last letters of each words in "Sandeep Graciela Jai Xiomara" and concatenate them.
+A: The answer is "palaiaiara"
+INFO:root:pred : palaiaiara
+INFO:root:GT : paia
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:254st data
+INFO:root:Q: Take the last letters of each words in "Frank Trevor Al Gabriella" and concatenate them.
+A: The answer is "knravlla"
+INFO:root:pred : knravlla
+INFO:root:GT : krla
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:255st data
+INFO:root:Q: Take the last letters of each words in "Elva Kari Shirley Gilberto" and concatenate them.
+A: The answer is "ariyot"
+INFO:root:pred : ariyot
+INFO:root:GT : aiyo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:256st data
+INFO:root:Q: Take the last letters of each words in "Alonzo Dorothy Alfred Rodriguez" and concatenate them.
+A: The answer is "oayd"
+INFO:root:pred : oayd
+INFO:root:GT : oydz
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:257st data
+INFO:root:Q: Take the last letters of each words in "Ernest Yuri Camila Ashlee" and concatenate them.
+A: The answer is "tylaee"
+INFO:root:pred : tylaee
+INFO:root:GT : tiae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:258st data
+INFO:root:Q: Take the last letters of each words in "Jim Dwayne Ricky Artemio" and concatenate them.
+A: The answer is "MNRIO"
+INFO:root:pred : MNRIO
+INFO:root:GT : meyo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:259st data
+INFO:root:Q: Take the last letters of each words in "Noah Aubrey Cesar Eliana" and concatenate them.
+A: The answer is "HYARNA"
+INFO:root:pred : HYARNA
+INFO:root:GT : hyra
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:260st data
+INFO:root:Q: Take the last letters of each words in "Shawn Tracie Lynne Leila" and concatenate them.
+A: The answer is "Nelya"
+INFO:root:pred : Nelya
+INFO:root:GT : neea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:261st data
+INFO:root:Q: Take the last letters of each words in "Norma Timothy Willie Mathew" and concatenate them.
+A: The answer is "ayhywewhew"
+INFO:root:pred : ayhywewhew
+INFO:root:GT : ayew
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:262st data
+INFO:root:Q: Take the last letters of each words in "Maricruz Alfredo Barry Deepak" and concatenate them.
+A: The answer is "zodoyk"
+INFO:root:pred : zodoyk
+INFO:root:GT : zoyk
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:263st data
+INFO:root:Q: Take the last letters of each words in "Julia Kirsten Pam Adan" and concatenate them.
+A: The answer is "anatn".
+INFO:root:pred : anatn
+INFO:root:GT : anmn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:264st data
+INFO:root:Q: Take the last letters of each words in "Adalberto Jamal Carter Robyn" and concatenate them.
+A: The answer is "oalr"
+INFO:root:pred : oalr
+INFO:root:GT : olrn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:265st data
+INFO:root:Q: Take the last letters of each words in "Nicky Eden James Matt" and concatenate them.
+A: The answer is "yndt"
+INFO:root:pred : yndt
+INFO:root:GT : ynst
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:266st data
+INFO:root:Q: Take the last letters of each words in "Jaime Brad Levi Emmanuel" and concatenate them.
+A: The answer is "e d i l l".
+INFO:root:pred : edill
+INFO:root:GT : edil
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:267st data
+INFO:root:Q: Take the last letters of each words in "Kristie Johnnie Marisa Derick" and concatenate them.
+A: The answer is "EJANCK"
+INFO:root:pred : EJANCK
+INFO:root:GT : eeak
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:268st data
+INFO:root:Q: Take the last letters of each words in "Wilfredo Abby Karthik Perry" and concatenate them.
+A: The answer is "ooykry"
+INFO:root:pred : ooykry
+INFO:root:GT : oyky
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:269st data
+INFO:root:Q: Take the last letters of each words in "Pancho Claudio Elaine Vicky" and concatenate them.
+A: The answer is "oouo"
+INFO:root:pred : oouo
+INFO:root:GT : ooey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:270st data
+INFO:root:Q: Take the last letters of each words in "Teri Lina Mery Melanie" and concatenate them.
+A: The answer is "iay"
+INFO:root:pred : iay
+INFO:root:GT : iaye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:271st data
+INFO:root:Q: Take the last letters of each words in "Selene Felix Milton Yessica" and concatenate them.
+A: The answer is "e x n a"
+INFO:root:pred : exna
+INFO:root:GT : exna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:272st data
+INFO:root:Q: Take the last letters of each words in "Gus Brock Ava Jenna" and concatenate them.
+A: The answer is "sknna"
+INFO:root:pred : sknna
+INFO:root:GT : skaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:273st data
+INFO:root:Q: Take the last letters of each words in "Karen Hector Mai Steven" and concatenate them.
+A: The answer is "neroraien".
+INFO:root:pred : neroraien
+INFO:root:GT : nrin
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:274st data
+INFO:root:Q: Take the last letters of each words in "Alexander Marina Valentina Mila" and concatenate them.
+A: The answer is "ranaanailaala"
+INFO:root:pred : ranaanailaala
+INFO:root:GT : raaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:275st data
+INFO:root:Q: Take the last letters of each words in "Kristine Van Marisol Preston" and concatenate them.
+A: The answer is "Eneanlton"
+INFO:root:pred : Eneanlton
+INFO:root:GT : enln
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:276st data
+INFO:root:Q: Take the last letters of each words in "Evan Ray Sofia Alonso" and concatenate them.
+A: The answer is "NRYA"
+INFO:root:pred : NRYA
+INFO:root:GT : nyao
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:277st data
+INFO:root:Q: Take the last letters of each words in "Alfonso Collin Amado Dick" and concatenate them.
+A: The answer is "o n o i c k"
+INFO:root:pred : onoick
+INFO:root:GT : onok
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:278st data
+INFO:root:Q: Take the last letters of each words in "Les Jun Noe Juliana" and concatenate them.
+A: The answer is "snouan"
+INFO:root:pred : snouan
+INFO:root:GT : snea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:279st data
+INFO:root:Q: Take the last letters of each words in "Damian Crystal Nisha Hernan" and concatenate them.
+A: The answer is "n n a a n"
+INFO:root:pred : nnaan
+INFO:root:GT : nlan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:280st data
+INFO:root:Q: Take the last letters of each words in "Rosario Manoj Adolfo Reina" and concatenate them.
+A: The answer is "ojofoa"
+INFO:root:pred : ojofoa
+INFO:root:GT : ojoa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:281st data
+INFO:root:Q: Take the last letters of each words in "Marcia Belen Reyna Britney" and concatenate them.
+A: The answer is "aaenay"
+INFO:root:pred : aaenay
+INFO:root:GT : anay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:282st data
+INFO:root:Q: Take the last letters of each words in "Idalia Arnoldo Marla Duane" and concatenate them.
+A: The answer is "aaod"
+INFO:root:pred : aaod
+INFO:root:GT : aoae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:283st data
+INFO:root:Q: Take the last letters of each words in "Katia Mina Cam Ronda" and concatenate them.
+A: The answer is "amnaro"
+INFO:root:pred : amnaro
+INFO:root:GT : aama
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:284st data
+INFO:root:Q: Take the last letters of each words in "Rashad Savannah Flavio Bert" and concatenate them.
+A: The answer is "dhavannahiovobert"
+INFO:root:pred : dhavannahiovobert
+INFO:root:GT : dhot
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:285st data
+INFO:root:Q: Take the last letters of each words in "Leanne Lulu Lopez Jp" and concatenate them.
+A: The answer is "euep"
+INFO:root:pred : euep
+INFO:root:GT : euzp
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:286st data
+INFO:root:Q: Take the last letters of each words in "Lora Alberto Cathy Kara" and concatenate them.
+A: The answer is "aoayaa"
+INFO:root:pred : aoayaa
+INFO:root:GT : aoya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:287st data
+INFO:root:Q: Take the last letters of each words in "Roni Nikita Hannah Kiana" and concatenate them.
+A: The answer is "iataannaana"
+INFO:root:pred : iataannaana
+INFO:root:GT : iaha
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:288st data
+INFO:root:Q: Take the last letters of each words in "Edwin Lovely Curt Damon" and concatenate them.
+A: The answer is "NLYTMON"
+INFO:root:pred : NLYTMON
+INFO:root:GT : nytn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:289st data
+INFO:root:Q: Take the last letters of each words in "Missy Erin Lorna Lenny" and concatenate them.
+A: The answer is "y n a y."
+INFO:root:pred : ynay
+INFO:root:GT : ynay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:290st data
+INFO:root:Q: Take the last letters of each words in "Vijay Sherrie Doug Suzy" and concatenate them.
+A: The answer is "yeygzy"
+INFO:root:pred : yeygzy
+INFO:root:GT : yegy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:291st data
+INFO:root:Q: Take the last letters of each words in "Claudia Cole Matthew Juan Pablo" and concatenate them.
+A: The answer is "alewewno"
+INFO:root:pred : alewewno
+INFO:root:GT : aewo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:292st data
+INFO:root:Q: Take the last letters of each words in "Arturo Dominick Christa Myles" and concatenate them.
+A: The answer is "o k c a s"
+INFO:root:pred : okcas
+INFO:root:GT : okas
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:293st data
+INFO:root:Q: Take the last letters of each words in "Marc Doris Ernie Gary" and concatenate them.
+A: The answer is "csiey"
+INFO:root:pred : csiey
+INFO:root:GT : csey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:294st data
+INFO:root:Q: Take the last letters of each words in "Teresa Reid Karin Gracie" and concatenate them.
+A: The answer is "adnirnacie"
+INFO:root:pred : adnirnacie
+INFO:root:GT : adne
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:295st data
+INFO:root:Q: Take the last letters of each words in "Rahul Praveen Isaiah Elsie" and concatenate them.
+A: The answer is "Lnev"
+INFO:root:pred : Lnev
+INFO:root:GT : lnhe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:296st data
+INFO:root:Q: Take the last letters of each words in "Miranda Jacques Clarence Chandra" and concatenate them.
+A: The answer is "asdsae"
+INFO:root:pred : asdsae
+INFO:root:GT : asea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:297st data
+INFO:root:Q: Take the last letters of each words in "June Robin Josie Bo" and concatenate them.
+A: The answer is "Eneinieo"
+INFO:root:pred : Eneinieo
+INFO:root:GT : eneo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:298st data
+INFO:root:Q: Take the last letters of each words in "Luisa Tatiana Drake Hillary" and concatenate them.
+A: The answer is "asaeey".
+INFO:root:pred : asaeey
+INFO:root:GT : aaey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:299st data
+INFO:root:Q: Take the last letters of each words in "Louise Mariano Laura Gerardo" and concatenate them.
+A: The answer is "Eanoaodaoa"
+INFO:root:pred : Eanoaodaoa
+INFO:root:GT : eoao
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:300st data
+INFO:root:Q: Take the last letters of each words in "Star Jude Rosemarie Raquel" and concatenate them.
+A: The answer is "eueieel".
+INFO:root:pred : eueieel
+INFO:root:GT : reel
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:301st data
+INFO:root:Q: Take the last letters of each words in "Clark Jenn Diane Blair" and concatenate them.
+A: The answer is "knneair".
+INFO:root:pred : knneair
+INFO:root:GT : kner
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:302st data
+INFO:root:Q: Take the last letters of each words in "Lalo Yolanda Elida Ester" and concatenate them.
+A: The answer is "aoaa"
+INFO:root:pred : aoaa
+INFO:root:GT : oaar
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:303st data
+INFO:root:Q: Take the last letters of each words in "Bethany Rakesh Christine Dinesh" and concatenate them.
+A: The answer is "yhshneesh"
+INFO:root:pred : yhshneesh
+INFO:root:GT : yheh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:304st data
+INFO:root:Q: Take the last letters of each words in "Nery Cindy Jess Chris" and concatenate them.
+A: The answer is "yycs"
+INFO:root:pred : yycs
+INFO:root:GT : yyss
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:305st data
+INFO:root:Q: Take the last letters of each words in "Miriam Brandy Bertha Renato" and concatenate them.
+A: The answer is "MRYM Y DNTO"
+INFO:root:pred : MRYMYDNTO
+INFO:root:GT : myao
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:306st data
+INFO:root:Q: Take the last letters of each words in "Abel Mallory Theresa Quinn" and concatenate them.
+A: The answer is "lynn".
+INFO:root:pred : lynn
+INFO:root:GT : lyan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:307st data
+INFO:root:Q: Take the last letters of each words in "Celso Tracy Winston Anton" and concatenate them.
+A: The answer is "oynon".
+INFO:root:pred : oynon
+INFO:root:GT : oynn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:308st data
+INFO:root:Q: Take the last letters of each words in "Lore Erasmo Louis David" and concatenate them.
+A: The answer is "eooisvid"
+INFO:root:pred : eooisvid
+INFO:root:GT : eosd
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:309st data
+INFO:root:Q: Take the last letters of each words in "Cristobal Dania Li Anna" and concatenate them.
+A: The answer is "LALI"
+INFO:root:pred : LALI
+INFO:root:GT : laia
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:310st data
+INFO:root:Q: Take the last letters of each words in "Wally Claire Helen Nacho" and concatenate them.
+A: The answer is "YERON"
+INFO:root:pred : YERON
+INFO:root:GT : yeno
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:311st data
+INFO:root:Q: Take the last letters of each words in "Rosa Lana Curtis Rae" and concatenate them.
+A: The answer is "asatse".
+INFO:root:pred : asatse
+INFO:root:GT : aase
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:312st data
+INFO:root:Q: Take the last letters of each words in "Angeles Richard Luciana Darlene" and concatenate them.
+A: The answer is "esdcnae"
+INFO:root:pred : esdcnae
+INFO:root:GT : sdae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:313st data
+INFO:root:Q: Take the last letters of each words in "Jodi Judi Nia Raj" and concatenate them.
+A: The answer is "idiiaj"
+INFO:root:pred : idiiaj
+INFO:root:GT : iiaj
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:314st data
+INFO:root:Q: Take the last letters of each words in "Irvin Brittney Vince Lucas" and concatenate them.
+A: The answer is "nyecas"
+INFO:root:pred : nyecas
+INFO:root:GT : nyes
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:315st data
+INFO:root:Q: Take the last letters of each words in "Guille Lisa Harvey Gina" and concatenate them.
+A: The answer is "easvna"
+INFO:root:pred : easvna
+INFO:root:GT : eaya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:316st data
+INFO:root:Q: Take the last letters of each words in "Renata Mariela Mona Kristin" and concatenate them.
+A: The answer is "ataalaonan".
+INFO:root:pred : ataalaonan
+INFO:root:GT : aaan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:317st data
+INFO:root:Q: Take the last letters of each words in "Johan Damien Serena Grace" and concatenate them.
+A: The answer is "NNGE"
+INFO:root:pred : NNGE
+INFO:root:GT : nnae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:318st data
+INFO:root:Q: Take the last letters of each words in "Aj Jd Maddie Francisca" and concatenate them.
+A: The answer is "Jdca"
+INFO:root:pred : Jdca
+INFO:root:GT : jdea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:319st data
+INFO:root:Q: Take the last letters of each words in "Daryl Owen Myra Aaron" and concatenate them.
+A: The answer is "NwMyrAn"
+INFO:root:pred : NwMyrAn
+INFO:root:GT : lnan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:320st data
+INFO:root:Q: Take the last letters of each words in "Nick Ada Stephany Suzie" and concatenate them.
+A: The answer is "kcayz".
+INFO:root:pred : kcayz
+INFO:root:GT : kaye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:321st data
+INFO:root:Q: Take the last letters of each words in "Elle Alex Irma Stephan" and concatenate them.
+A: The answer is "EAXN"
+INFO:root:pred : EAXN
+INFO:root:GT : exan
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:322st data
+INFO:root:Q: Take the last letters of each words in "Arnold Aidan Ally Ami" and concatenate them.
+A: The answer is "Ddni"
+INFO:root:pred : Ddni
+INFO:root:GT : dnyi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:323st data
+INFO:root:Q: Take the last letters of each words in "Gabino Kayla Laurie Familia" and concatenate them.
+A: The answer is "oaylaiia"
+INFO:root:pred : oaylaiia
+INFO:root:GT : oaea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:324st data
+INFO:root:Q: Take the last letters of each words in "Logan Ely Abbie Colleen" and concatenate them.
+A: The answer is "NLYEN"
+INFO:root:pred : NLYEN
+INFO:root:GT : nyen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:325st data
+INFO:root:Q: Take the last letters of each words in "Kristy Brandi Lizeth Petra" and concatenate them.
+A: The answer is "yidah"
+INFO:root:pred : yidah
+INFO:root:GT : yiha
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:326st data
+INFO:root:Q: Take the last letters of each words in "Hazel Gabrielle Tre Dalton" and concatenate them.
+A: The answer is "LLENTON"
+INFO:root:pred : LLENTON
+INFO:root:GT : leen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:327st data
+INFO:root:Q: Take the last letters of each words in "Conrad Marcella Annette Esteban" and concatenate them.
+A: The answer is "dlna"
+INFO:root:pred : dlna
+INFO:root:GT : daen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:328st data
+INFO:root:Q: Take the last letters of each words in "Isaac Reyes Carly Tania" and concatenate them.
+A: The answer is "csyia"
+INFO:root:pred : csyia
+INFO:root:GT : csya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:329st data
+INFO:root:Q: Take the last letters of each words in "Wilma Margie Amber Sergio" and concatenate them.
+A: The answer is "aeerio"
+INFO:root:pred : aeerio
+INFO:root:GT : aero
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:330st data
+INFO:root:Q: Take the last letters of each words in "Sonya Eddy Carol Yung" and concatenate them.
+A: The answer is "aydlngrlgn"
+INFO:root:pred : aydlngrlgn
+INFO:root:GT : aylg
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:331st data
+INFO:root:Q: Take the last letters of each words in "Leandro Maricela Genevieve Lesly" and concatenate them.
+A: The answer is "oaevee"
+INFO:root:pred : oaevee
+INFO:root:GT : oaey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:332st data
+INFO:root:Q: Take the last letters of each words in "Andy Cecilia Gretchen Sandi" and concatenate them.
+A: The answer is "yaiaini"
+INFO:root:pred : yaiaini
+INFO:root:GT : yani
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:333st data
+INFO:root:Q: Take the last letters of each words in "Darwin Colin Cj Abhishek" and concatenate them.
+A: The answer is "NnNjek"
+INFO:root:pred : NnNjek
+INFO:root:GT : nnjk
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:334st data
+INFO:root:Q: Take the last letters of each words in "Lupita Cyndi Kay Derrick" and concatenate them.
+A: The answer is "ayiayk"
+INFO:root:pred : ayiayk
+INFO:root:GT : aiyk
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:335st data
+INFO:root:Q: Take the last letters of each words in "Felipe Heidi Nino Bradley" and concatenate them.
+A: The answer is "Eeioiynldy"
+INFO:root:pred : Eeioiynldy
+INFO:root:GT : eioy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:336st data
+INFO:root:Q: Take the last letters of each words in "Dorian Mayra Freddie Magaly" and concatenate them.
+A: The answer is "Naryedyma"
+INFO:root:pred : Naryedyma
+INFO:root:GT : naey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:337st data
+INFO:root:Q: Take the last letters of each words in "Flora Warren Gwendolyn Alissa" and concatenate them.
+A: The answer is "anwnnssa"
+INFO:root:pred : anwnnssa
+INFO:root:GT : anna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:338st data
+INFO:root:Q: Take the last letters of each words in "Ace Rosy Kimberly Jean" and concatenate them.
+A: The answer is "e y y n".
+INFO:root:pred : eyyn
+INFO:root:GT : eyyn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:339st data
+INFO:root:Q: Take the last letters of each words in "Jeremy Simone Alondra Wyatt" and concatenate them.
+A: The answer is "yeeat"
+INFO:root:pred : yeeat
+INFO:root:GT : yeat
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:340st data
+INFO:root:Q: Take the last letters of each words in "Deanna Terri Gabriela Jonah" and concatenate them.
+A: The answer is "annaiaah"
+INFO:root:pred : annaiaah
+INFO:root:GT : aiah
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:341st data
+INFO:root:Q: Take the last letters of each words in "Conor Randall Oleg Stephanie" and concatenate them.
+A: The answer is "rldlegnie"
+INFO:root:pred : rldlegnie
+INFO:root:GT : rlge
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:342st data
+INFO:root:Q: Take the last letters of each words in "Chance Valentin Micah Clara" and concatenate them.
+A: The answer is "Eentncaahara"
+INFO:root:pred : Eentncaahara
+INFO:root:GT : enha
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:343st data
+INFO:root:Q: Take the last letters of each words in "Dusty Yanet Hortencia Lili" and concatenate them.
+A: The answer is "ytncali"
+INFO:root:pred : ytncali
+INFO:root:GT : ytai
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:344st data
+INFO:root:Q: Take the last letters of each words in "Natalie Gilbert Brian Sanchez" and concatenate them.
+A: The answer is "e n t n i e z"
+INFO:root:pred : entniez
+INFO:root:GT : etnz
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:345st data
+INFO:root:Q: Take the last letters of each words in "Ulises Derek Adrianna Eugene" and concatenate them.
+A: The answer is "seskannae"
+INFO:root:pred : seskannae
+INFO:root:GT : skae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:346st data
+INFO:root:Q: Take the last letters of each words in "Carlitos Damaris Nikhil Jennie" and concatenate them.
+A: The answer is "ssshelie"
+INFO:root:pred : ssshelie
+INFO:root:GT : ssle
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:347st data
+INFO:root:Q: Take the last letters of each words in "Yessenia Geraldine Minerva Tanya" and concatenate them.
+A: The answer is "ayneva"
+INFO:root:pred : ayneva
+INFO:root:GT : aeaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:348st data
+INFO:root:Q: Take the last letters of each words in "Nicolas Aaliyah Pascual Rob" and concatenate them.
+A: The answer is "SLSL"
+INFO:root:pred : SLSL
+INFO:root:GT : shlb
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:349st data
+INFO:root:Q: Take the last letters of each words in "Brandon Ivonne Jefferson Isabella" and concatenate them.
+A: The answer is "Nenon nne nosalla"
+INFO:root:pred : Nenonnnenosalla
+INFO:root:GT : nena
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:350st data
+INFO:root:Q: Take the last letters of each words in "Pedro Leopoldo Tee Mar" and concatenate them.
+A: The answer is "ooeoea"
+INFO:root:pred : ooeoea
+INFO:root:GT : ooer
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:351st data
+INFO:root:Q: Take the last letters of each words in "Paris Jimmie Andrew Ram¨®n" and concatenate them.
+A: The answer is "smen¨®n".
+INFO:root:pred : smen¨®n
+INFO:root:GT : sewn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:352st data
+INFO:root:Q: Take the last letters of each words in "Angelica Tariq Ursula Nena" and concatenate them.
+A: The answer is "acqala".
+INFO:root:pred : acqala
+INFO:root:GT : aqaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:353st data
+INFO:root:Q: Take the last letters of each words in "Luz Terence Elder Jazmin" and concatenate them.
+A: The answer is "z e e n".
+INFO:root:pred : zeen
+INFO:root:GT : zern
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:354st data
+INFO:root:Q: Take the last letters of each words in "Roberta Mauro Clint Marcela" and concatenate them.
+A: The answer is "anotn"
+INFO:root:pred : anotn
+INFO:root:GT : aota
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:355st data
+INFO:root:Q: Take the last letters of each words in "Adrian Marlon Karla Florence" and concatenate them.
+A: The answer is "NOLCE"
+INFO:root:pred : NOLCE
+INFO:root:GT : nnae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:356st data
+INFO:root:Q: Take the last letters of each words in "Skyler Oliver Cristy Sierra" and concatenate them.
+A: The answer is "RRTA"
+INFO:root:pred : RRTA
+INFO:root:GT : rrya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:357st data
+INFO:root:Q: Take the last letters of each words in "Barbie Desiree Yaneth Dre" and concatenate them.
+A: The answer is "Eeheee"
+INFO:root:pred : Eeheee
+INFO:root:GT : eehe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:358st data
+INFO:root:Q: Take the last letters of each words in "Dan Ruth Xavier Isidro" and concatenate them.
+A: The answer is "nhtro"
+INFO:root:pred : nhtro
+INFO:root:GT : nhro
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:359st data
+INFO:root:Q: Take the last letters of each words in "Philip Antony Iris Alicia" and concatenate them.
+A: The answer is "lnoyca"
+INFO:root:pred : lnoyca
+INFO:root:GT : pysa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:360st data
+INFO:root:Q: Take the last letters of each words in "Corey Elvin Tino Melvin" and concatenate them.
+A: The answer is "ynonilnevilemoC"
+INFO:root:pred : ynonilnevilemoC
+INFO:root:GT : ynon
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:361st data
+INFO:root:Q: Take the last letters of each words in "Russell Mitchell Bee Faith" and concatenate them.
+A: The answer is "Llheeh"
+INFO:root:pred : Llheeh
+INFO:root:GT : lleh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:362st data
+INFO:root:Q: Take the last letters of each words in "Bri Roger Eve Diana" and concatenate them.
+A: The answer is "irerena"
+INFO:root:pred : irerena
+INFO:root:GT : irea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:363st data
+INFO:root:Q: Take the last letters of each words in "Gisela Gerald Mackenzie Ashley" and concatenate them.
+A: The answer is "alaackenzieley"
+INFO:root:pred : alaackenzieley
+INFO:root:GT : adey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:364st data
+INFO:root:Q: Take the last letters of each words in "Vinny Landon Miguel Caitlyn" and concatenate them.
+A: The answer is "ynglnl"
+INFO:root:pred : ynglnl
+INFO:root:GT : ynln
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:365st data
+INFO:root:Q: Take the last letters of each words in "Constance Nicholas Will Love" and concatenate them.
+A: The answer is "e s s l e".
+INFO:root:pred : essle
+INFO:root:GT : esle
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:366st data
+INFO:root:Q: Take the last letters of each words in "Jeannie Kenneth Porfirio Ezequiel" and concatenate them.
+A: The answer is "eheoel"
+INFO:root:pred : eheoel
+INFO:root:GT : ehol
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:367st data
+INFO:root:Q: Take the last letters of each words in "Mario Pierre Amit Nelson" and concatenate them.
+A: The answer is "oeerlt"
+INFO:root:pred : oeerlt
+INFO:root:GT : oetn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:368st data
+INFO:root:Q: Take the last letters of each words in "Mercedes Adela Susana Rose" and concatenate them.
+A: The answer is "sesanae"
+INFO:root:pred : sesanae
+INFO:root:GT : saae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:369st data
+INFO:root:Q: Take the last letters of each words in "Fred Nolan Johnathan Carson" and concatenate them.
+A: The answer is "NolanJohnathanCarson"
+INFO:root:pred : NolanJohnathanCarson
+INFO:root:GT : dnnn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:370st data
+INFO:root:Q: Take the last letters of each words in "Caroline Demetrius Fidel Solomon" and concatenate them.
+A: The answer is "eiusn".
+INFO:root:pred : eiusn
+INFO:root:GT : esln
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:371st data
+INFO:root:Q: Take the last letters of each words in "Julio Sidney Aiden Shay" and concatenate them.
+A: The answer is "oynay"
+INFO:root:pred : oynay
+INFO:root:GT : oyny
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:372st data
+INFO:root:Q: Take the last letters of each words in "Mabel Estela Irene May" and concatenate them.
+A: The answer is "LARN"
+INFO:root:pred : LARN
+INFO:root:GT : laey
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:373st data
+INFO:root:Q: Take the last letters of each words in "Marcus Ramirez Junior Arely" and concatenate them.
+A: The answer is "ssrroly"
+INFO:root:pred : ssrroly
+INFO:root:GT : szry
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:374st data
+INFO:root:Q: Take the last letters of each words in "Todd Joni Gil Fran" and concatenate them.
+A: The answer is "NIFN"
+INFO:root:pred : NIFN
+INFO:root:GT : diln
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:375st data
+INFO:root:Q: Take the last letters of each words in "Gerson Roxanne Deborah Nathaniel" and concatenate them.
+A: The answer is "nnehl"
+INFO:root:pred : nnehl
+INFO:root:GT : nehl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:376st data
+INFO:root:Q: Take the last letters of each words in "Colton Dexter Katy Brayden" and concatenate them.
+A: The answer is "NRYN"
+INFO:root:pred : NRYN
+INFO:root:GT : nryn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:377st data
+INFO:root:Q: Take the last letters of each words in "Tori Mariam Gaby Brayan" and concatenate them.
+A: The answer is "i m y n".
+INFO:root:pred : imyn
+INFO:root:GT : imyn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:378st data
+INFO:root:Q: Take the last letters of each words in "Michel Roy Sergey Jessie" and concatenate them.
+A: The answer is "lryey".
+INFO:root:pred : lryey
+INFO:root:GT : lyye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:379st data
+INFO:root:Q: Take the last letters of each words in "Anil Enrique Jimmy Jhonny" and concatenate them.
+A: The answer is "LeneJyJny"
+INFO:root:pred : LeneJyJny
+INFO:root:GT : leyy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:380st data
+INFO:root:pred : LNRNTRZ
+INFO:root:GT : lnrz
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:381st data
+INFO:root:Q: Take the last letters of each words in "Maritza Nana Loretta Eric" and concatenate them.
+A: The answer is "azanatciric"
+INFO:root:pred : azanatciric
+INFO:root:GT : aaac
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:382st data
+INFO:root:Q: Take the last letters of each words in "Thomas Cara Nita Frances" and concatenate them.
+A: The answer is "asatse".
+INFO:root:pred : asatse
+INFO:root:GT : saas
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:383st data
+INFO:root:Q: Take the last letters of each words in "Chuy Shane Jaden Maynor" and concatenate them.
+A: The answer is "yeeor".
+INFO:root:pred : yeeor
+INFO:root:GT : yenr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:384st data
+INFO:root:Q: Take the last letters of each words in "Violeta Clay Janelle Mac" and concatenate them.
+A: The answer is "taylanelleac"
+INFO:root:pred : taylanelleac
+INFO:root:GT : ayec
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:385st data
+INFO:root:Q: Take the last letters of each words in "Guadalupe Ebony Wil Luke" and concatenate them.
+A: The answer is "Eyeluke"
+INFO:root:pred : Eyeluke
+INFO:root:GT : eyle
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:386st data
+INFO:root:Q: Take the last letters of each words in "Jenni Leonel Micheal Kat" and concatenate them.
+A: The answer is "ilnlal"
+INFO:root:pred : ilnlal
+INFO:root:GT : illt
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:387st data
+INFO:root:Q: Take the last letters of each words in "Yazmin Lea Rodrigo Sammy" and concatenate them.
+A: The answer is "NAROY"
+INFO:root:pred : NAROY
+INFO:root:GT : naoy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:388st data
+INFO:root:Q: Take the last letters of each words in "Emely Chelsea Vladimir Tyrone" and concatenate them.
+A: The answer is "yaea
+INFO:root:pred : yaea
+INFO:root:GT : yare
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:389st data
+INFO:root:Q: Take the last letters of each words in "Bill Santos Roxy Randi" and concatenate them.
+A: The answer is "slsyii"
+INFO:root:pred : slsyii
+INFO:root:GT : lsyi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:390st data
+INFO:root:Q: Take the last letters of each words in "Daphne Lola Joanna Sheena" and concatenate them.
+A: The answer is "eaeaa".
+INFO:root:pred : eaeaa
+INFO:root:GT : eaaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:391st data
+INFO:root:Q: Take the last letters of each words in "Lara Greg Ethan Terrence" and concatenate them.
+A: The answer is "agnt"
+INFO:root:pred : agnt
+INFO:root:GT : agne
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:392st data
+INFO:root:Q: Take the last letters of each words in "Otto Marjorie Leonor Esther" and concatenate them.
+A: The answer is "ooieorher"
+INFO:root:pred : ooieorher
+INFO:root:GT : oerr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:393st data
+INFO:root:Q: Take the last letters of each words in "Malcolm Hussein Franco Hugo" and concatenate them.
+A: The answer is "m n o o"
+INFO:root:pred : mnoo
+INFO:root:GT : mnoo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:394st data
+INFO:root:Q: Take the last letters of each words in "Joyce Leroy Alyssa Maggie" and concatenate them.
+A: The answer is "EYEA"
+INFO:root:pred : EYEA
+INFO:root:GT : eyae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:395st data
+INFO:root:Q: Take the last letters of each words in "Maryam Susy Trinity Pearl" and concatenate them.
+A: The answer is "myrtyl"
+INFO:root:pred : myrtyl
+INFO:root:GT : myyl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:396st data
+INFO:root:Q: Take the last letters of each words in "Dustin Luiz Rolando Connor" and concatenate them.
+A: The answer is "NOR"
+INFO:root:pred : NOR
+INFO:root:GT : nzor
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:397st data
+INFO:root:Q: Take the last letters of each words in "Juan Manuel Benjamin Rory Rafael" and concatenate them.
+A: The answer is "NLYR"
+INFO:root:pred : NLYR
+INFO:root:GT : lnyl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:398st data
+INFO:root:Q: Take the last letters of each words in "Fermin Berenice Marianne Eleanor" and concatenate them.
+A: The answer is "NCEENOR"
+INFO:root:pred : NCEENOR
+INFO:root:GT : neer
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:399st data
+INFO:root:Q: Take the last letters of each words in "Sabrina Pete Mary La" and concatenate them.
+A: The answer is "Eeey."
+INFO:root:pred : Eeey
+INFO:root:GT : aeya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:400st data
+INFO:root:Q: Take the last letters of each words in "Estrella Madison Paco Rj" and concatenate them.
+A: The answer is "anorj"
+INFO:root:pred : anorj
+INFO:root:GT : anoj
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:401st data
+INFO:root:Q: Take the last letters of each words in "Niki Graham Vernon Beau" and concatenate them.
+A: The answer is "i m n u".
+INFO:root:pred : imnu
+INFO:root:GT : imnu
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:402st data
+INFO:root:Q: Take the last letters of each words in "Bernie Melina Kelsey Rusty" and concatenate them.
+A: The answer is "ieay"
+INFO:root:pred : ieay
+INFO:root:GT : eayy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:403st data
+INFO:root:Q: Take the last letters of each words in "Latoya Eliseo Trina Melisa" and concatenate them.
+A: The answer is "ayosnain"
+INFO:root:pred : ayosnain
+INFO:root:GT : aoaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:404st data
+INFO:root:Q: Take the last letters of each words in "Wesley Marcelo Rodolfo Erick" and concatenate them.
+A: The answer is "Yooofk"
+INFO:root:pred : Yooofk
+INFO:root:GT : yook
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:405st data
+INFO:root:Q: Take the last letters of each words in "Sean Rebeca Marco Sami" and concatenate them.
+A: The answer is "Nacm"
+INFO:root:pred : Nacm
+INFO:root:GT : naoi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:406st data
+INFO:root:Q: Take the last letters of each words in "Blanca Monika Ervin Lori" and concatenate them.
+A: The answer is "anaknairi"
+INFO:root:pred : anaknairi
+INFO:root:GT : aani
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:407st data
+INFO:root:Q: Take the last letters of each words in "Lorraine Corinne Kate Floyd" and concatenate them.
+A: The answer is "e e e d".
+INFO:root:pred : eeed
+INFO:root:GT : eeed
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:408st data
+INFO:root:Q: Take the last letters of each words in "Bruce Dena Kyla Robbie" and concatenate them.
+A: The answer is "Eanaylae"
+INFO:root:pred : Eanaylae
+INFO:root:GT : eaae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:409st data
+INFO:root:Q: Take the last letters of each words in "Gee Joseluis Cory Stefanie" and concatenate them.
+A: The answer is "seusy"
+INFO:root:pred : seusy
+INFO:root:GT : esye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:410st data
+INFO:root:Q: Take the last letters of each words in "Kristen Herbert Benny El" and concatenate them.
+A: The answer is "Nnyt"
+INFO:root:pred : Nnyt
+INFO:root:GT : ntyl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:411st data
+INFO:root:Q: Take the last letters of each words in "Justin Neal Jt Lucia" and concatenate them.
+A: The answer is "NNtJ".
+INFO:root:pred : NNtJ
+INFO:root:GT : nlta
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:412st data
+INFO:root:Q: Take the last letters of each words in "Carmelo Tony Susan Sara" and concatenate them.
+A: The answer is "oynanara"
+INFO:root:pred : oynanara
+INFO:root:GT : oyna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:413st data
+INFO:root:Q: Take the last letters of each words in "Boris Sabina Kaitlyn Cameron" and concatenate them.
+A: The answer is "SNAK"
+INFO:root:pred : SNAK
+INFO:root:GT : sann
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:414st data
+INFO:root:Q: Take the last letters of each words in "Elizabeth Mitch Brooke Jordyn" and concatenate them.
+A: The answer is "htcheyn".
+INFO:root:pred : htcheyn
+INFO:root:GT : hhen
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:415st data
+INFO:root:Q: Take the last letters of each words in "Delia Kathleen Mateo Marvin" and concatenate them.
+A: The answer is "anotn"
+INFO:root:pred : anotn
+INFO:root:GT : anon
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:416st data
+INFO:root:Q: Take the last letters of each words in "Bj Rigo Nigel Christian" and concatenate them.
+A: The answer is "jogelain"
+INFO:root:pred : jogelain
+INFO:root:GT : joln
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:417st data
+INFO:root:Q: Take the last letters of each words in "Kathy Elsa Alba Ivette" and concatenate them.
+A: The answer is "yhaseaet"
+INFO:root:pred : yhaseaet
+INFO:root:GT : yaae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:418st data
+INFO:root:Q: Take the last letters of each words in "Cruz Wilber Marilu Malik" and concatenate them.
+A: The answer is "zrulurik"
+INFO:root:pred : zrulurik
+INFO:root:GT : zruk
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:419st data
+INFO:root:Q: Take the last letters of each words in "Sherry Ben Allison Anthony" and concatenate them.
+A: The answer is "yntnynhy"
+INFO:root:pred : yntnynhy
+INFO:root:GT : ynny
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:420st data
+INFO:root:Q: Take the last letters of each words in "Seth Dario Anne Jodie" and concatenate them.
+A: The answer is "htoeeieeieeie"
+INFO:root:pred : htoeeieeieeie
+INFO:root:GT : hoee
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:421st data
+INFO:root:Q: Take the last letters of each words in "Leon Payton Stefan Javi" and concatenate them.
+A: The answer is "NNTN"
+INFO:root:pred : NNTN
+INFO:root:GT : nnni
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:422st data
+INFO:root:Q: Take the last letters of each words in "Marcos Kerri Fabio Stephen" and concatenate them.
+A: The answer is "ssioi"
+INFO:root:pred : ssioi
+INFO:root:GT : sion
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:423st data
+INFO:root:Q: Take the last letters of each words in "Earl Rudy Harrison Nadine" and concatenate them.
+A: The answer is "l y n e".
+INFO:root:pred : lyne
+INFO:root:GT : lyne
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:424st data
+INFO:root:Q: Take the last letters of each words in "Andres Mary Ann Sydney Dina" and concatenate them.
+A: The answer is "ssyynna"
+INFO:root:pred : ssyynna
+INFO:root:GT : snya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:425st data
+INFO:root:Q: Take the last letters of each words in "Rohan Antoinette Nikki Aida" and concatenate them.
+A: The answer is "Neyiaki"
+INFO:root:pred : Neyiaki
+INFO:root:GT : neia
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:426st data
+INFO:root:Q: Take the last letters of each words in "Braulio Staci Jocelyn Brittany" and concatenate them.
+A: The answer is "oiocyny".
+INFO:root:pred : oiocyny
+INFO:root:GT : oiny
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:427st data
+INFO:root:Q: Take the last letters of each words in "Clayton Edison Debbie Elvira" and concatenate them.
+A: The answer is "NNDNRA"
+INFO:root:pred : NNDNRA
+INFO:root:GT : nnea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:428st data
+INFO:root:Q: Take the last letters of each words in "Britt Tamara Elvis Nayeli" and concatenate them.
+A: The answer is "taraeliseli"
+INFO:root:pred : taraeliseli
+INFO:root:GT : tasi
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:429st data
+INFO:root:Q: Take the last letters of each words in "Cristina Saad Bridget Katie" and concatenate them.
+A: The answer is "aaetie"
+INFO:root:pred : aaetie
+INFO:root:GT : adte
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:430st data
+INFO:root:Q: Take the last letters of each words in "Stella Janis Darren Lena" and concatenate them.
+A: The answer is "alnnerena"
+INFO:root:pred : alnnerena
+INFO:root:GT : asna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:431st data
+INFO:root:Q: Take the last letters of each words in "Charles Emilio Vivek Steve" and concatenate them.
+A: The answer is "seok"
+INFO:root:pred : seok
+INFO:root:GT : soke
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:432st data
+INFO:root:Q: Take the last letters of each words in "Sal Scott Myrna Maximo" and concatenate them.
+A: The answer is "lttno"
+INFO:root:pred : lttno
+INFO:root:GT : ltao
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:433st data
+INFO:root:Q: Take the last letters of each words in "Mia Art Samantha Lety" and concatenate them.
+A: The answer is "Ayat"
+INFO:root:pred : Ayat
+INFO:root:GT : atay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:434st data
+INFO:root:Q: Take the last letters of each words in "Miguel Angel Saul Brady Darryl" and concatenate them.
+A: The answer is "LNRLEL"
+INFO:root:pred : LNRLEL
+INFO:root:GT : llyl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:435st data
+INFO:root:Q: Take the last letters of each words in "Maria Elena Dewayne Mj Elliott" and concatenate them.
+A: The answer is "Ayanejtt."
+INFO:root:pred : Ayanejtt
+INFO:root:GT : aejt
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:436st data
+INFO:root:Q: Take the last letters of each words in "Antoine Javier Brett Stewart" and concatenate them.
+A: The answer is "EJRT"
+INFO:root:pred : EJRT
+INFO:root:GT : ertt
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:437st data
+INFO:root:Q: Take the last letters of each words in "Amanda Geoff Belinda Gaurav" and concatenate them.
+A: The answer is "adffav"
+INFO:root:pred : adffav
+INFO:root:GT : afav
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:438st data
+INFO:root:Q: Take the last letters of each words in "Krishna Catalina Eileen Teddy" and concatenate them.
+A: The answer is "ahalnay"
+INFO:root:pred : ahalnay
+INFO:root:GT : aany
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:439st data
+INFO:root:Q: Take the last letters of each words in "Mar¨ªa Fredy Bridgette Kenya" and concatenate them.
+A: The answer is "¨ªa y e e a"
+INFO:root:pred : ¨ªayeea
+INFO:root:GT : ayea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:440st data
+INFO:root:Q: Take the last letters of each words in "Neil Dani Eddie Marcelino" and concatenate them.
+A: The answer is "Lino"
+INFO:root:pred : Lino
+INFO:root:GT : lieo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:441st data
+INFO:root:Q: Take the last letters of each words in "Alain Jerome Kristina Ida" and concatenate them.
+A: The answer is "NEMEAN"
+INFO:root:pred : NEMEAN
+INFO:root:GT : neaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:442st data
+INFO:root:Q: Take the last letters of each words in "Drew Jhon Jayden Cliff" and concatenate them.
+A: The answer is "WNNFF".
+INFO:root:pred : WNNFF
+INFO:root:GT : wnnf
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:443st data
+INFO:root:Q: Take the last letters of each words in "Trish Vero Victor Clemente" and concatenate them.
+A: The answer is "shoertente"
+INFO:root:pred : shoertente
+INFO:root:GT : hore
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:444st data
+INFO:root:Q: Take the last letters of each words in "Antonio Ronald Ken Rachael" and concatenate them.
+A: The answer is "o n o n l h l"
+INFO:root:pred : ononlhl
+INFO:root:GT : odnl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:445st data
+INFO:root:Q: Take the last letters of each words in "Juliet Ricardo Tita Dianna" and concatenate them.
+A: The answer is "tota"
+INFO:root:pred : tota
+INFO:root:GT : toaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:446st data
+INFO:root:Q: Take the last letters of each words in "Larissa Shawna Alma Paulette" and concatenate them.
+A: The answer is "anawettemluae"
+INFO:root:pred : anawettemluae
+INFO:root:GT : aaae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:447st data
+INFO:root:Q: Take the last letters of each words in "Donald Lia Gonzalo Lily" and concatenate them.
+A: The answer is "DLGLY"
+INFO:root:pred : DLGLY
+INFO:root:GT : daoy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:448st data
+INFO:root:Q: Take the last letters of each words in "Evelyn Mason Shelby Aldo" and concatenate them.
+A: The answer is "NOSA"
+INFO:root:pred : NOSA
+INFO:root:GT : nnyo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:449st data
+INFO:root:Q: Take the last letters of each words in "Georgina Joshua Lindsey C¨¦sar" and concatenate them.
+A: The answer is "ahsaua"
+INFO:root:pred : ahsaua
+INFO:root:GT : aayr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:450st data
+INFO:root:Q: Take the last letters of each words in "King Edith Traci Flor" and concatenate them.
+A: The answer is "GHTI"
+INFO:root:pred : GHTI
+INFO:root:GT : ghir
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:451st data
+INFO:root:Q: Take the last letters of each words in "Courtney Ann John Fer" and concatenate them.
+A: The answer is "y n n r".
+INFO:root:pred : ynnr
+INFO:root:GT : ynnr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:452st data
+INFO:root:Q: Take the last letters of each words in "Debby Geoffrey Alana Silvestre" and concatenate them.
+A: The answer is "yryaere"
+INFO:root:pred : yryaere
+INFO:root:GT : yyae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:453st data
+INFO:root:Q: Take the last letters of each words in "Stevie Julie Leonard Karina" and concatenate them.
+A: The answer is "EILNNA"
+INFO:root:pred : EILNNA
+INFO:root:GT : eeda
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:454st data
+INFO:root:Q: Take the last letters of each words in "Juana Chip Lila Jayme" and concatenate them.
+A: The answer is "apalme"
+INFO:root:pred : apalme
+INFO:root:GT : apae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:455st data
+INFO:root:Q: Take the last letters of each words in "Jon Heath Reynaldo Catherine" and concatenate them.
+A: The answer is "nhtodoe".
+INFO:root:pred : nhtodoe
+INFO:root:GT : nhoe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:456st data
+INFO:root:Q: Take the last letters of each words in "Beatrice Taylor Juan Carlos Kaitlin" and concatenate them.
+A: The answer is "e r s s n s n s n".
+INFO:root:pred : erssnsnsn
+INFO:root:GT : ersn
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:457st data
+INFO:root:Q: Take the last letters of each words in "Christina Edna Ileana Lynette" and concatenate them.
+A: The answer is "Anaetanediynette"
+INFO:root:pred : Anaetanediynette
+INFO:root:GT : aaae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:458st data
+INFO:root:Q: Take the last letters of each words in "Eugenia Kellie Quentin Mike" and concatenate them.
+A: The answer is "EYNEKEM"
+INFO:root:pred : EYNEKEM
+INFO:root:GT : aene
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:459st data
+INFO:root:Q: Take the last letters of each words in "Yasmin Yesenia Carmela Susie" and concatenate them.
+A: The answer is "NNAALAE"
+INFO:root:pred : NNAALAE
+INFO:root:GT : naae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:460st data
+INFO:root:Q: Take the last letters of each words in "Oswaldo Jos¨¦ Luis Sheldon Tara" and concatenate them.
+A: The answer is "o e s n a a"
+INFO:root:pred : oesnaa
+INFO:root:GT : osna
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:461st data
+INFO:root:Q: Take the last letters of each words in "Debora Jayson Donna Sai" and concatenate them.
+A: The answer is "anoyai"
+INFO:root:pred : anoyai
+INFO:root:GT : anai
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:462st data
+INFO:root:Q: Take the last letters of each words in "Jermaine Pat Tammie Olivia" and concatenate them.
+A: The answer is "EneTieieia"
+INFO:root:pred : EneTieieia
+INFO:root:GT : etea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:463st data
+INFO:root:Q: Take the last letters of each words in "Sunny Trisha Paul Guy" and concatenate them.
+A: The answer is "yhauluy"
+INFO:root:pred : yhauluy
+INFO:root:GT : yaly
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:464st data
+INFO:root:Q: Take the last letters of each words in "Martha Elijah Dominic Tonya" and concatenate them.
+A: The answer is "ahahcay"
+INFO:root:pred : ahahcay
+INFO:root:GT : ahca
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:465st data
+INFO:root:Q: Take the last letters of each words in "Theo Sheila Mariana Esmeralda" and concatenate them.
+A: The answer is "oaaad"
+INFO:root:pred : oaaad
+INFO:root:GT : oaaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:466st data
+INFO:root:Q: Take the last letters of each words in "Cristal Roxana Rajesh Danny" and concatenate them.
+A: The answer is "LXNADY"
+INFO:root:pred : LXNADY
+INFO:root:GT : lahy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:467st data
+INFO:root:Q: Take the last letters of each words in "Geovanny Tom Katelyn Jennifer" and concatenate them.
+A: The answer is "ynnmnr"
+INFO:root:pred : ynnmnr
+INFO:root:GT : ymnr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:468st data
+INFO:root:Q: Take the last letters of each words in "Buddy Violet Johana Tina" and concatenate them.
+A: The answer is "yehanina"
+INFO:root:pred : yehanina
+INFO:root:GT : ytaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:469st data
+INFO:root:Q: Take the last letters of each words in "Jeremiah Kelley Josue Veronica" and concatenate them.
+A: The answer is "hhleyeuea"
+INFO:root:pred : hhleyeuea
+INFO:root:GT : hyea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:470st data
+INFO:root:Q: Take the last letters of each words in "Cassie Clifton Erik Everardo" and concatenate them.
+A: The answer is "eieo"
+INFO:root:pred : eieo
+INFO:root:GT : enko
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:471st data
+INFO:root:Q: Take the last letters of each words in "Pauline Kerry Jeannette Hope" and concatenate them.
+A: The answer is "EYEEPE."
+INFO:root:pred : EYEEPE
+INFO:root:GT : eyee
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:472st data
+INFO:root:Q: Take the last letters of each words in "Brooklyn Dawn Tay Gene" and concatenate them.
+A: The answer is "NWTG"
+INFO:root:pred : NWTG
+INFO:root:GT : nnye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:473st data
+INFO:root:Q: Take the last letters of each words in "Chloe Flaco Theodore Nathalie" and concatenate them.
+A: The answer is "eoeoeeie"
+INFO:root:pred : eoeoeeie
+INFO:root:GT : eoee
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:474st data
+INFO:root:Q: Take the last letters of each words in "Nichole Heriberto Darian Peter" and concatenate them.
+A: The answer is "EOTNORETRR".
+INFO:root:pred : EOTNORETRR
+INFO:root:GT : eonr
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:475st data
+INFO:root:Q: Take the last letters of each words in "Janette Stacey Ronny Kim" and concatenate them.
+A: The answer is "eeym"
+INFO:root:pred : eeym
+INFO:root:GT : eyym
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:476st data
+INFO:root:Q: Take the last letters of each words in "Jazmine Carmen Kitty Nina" and concatenate them.
+A: The answer is "e n e y a".
+INFO:root:pred : eneya
+INFO:root:GT : enya
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:477st data
+INFO:root:Q: Take the last letters of each words in "Donovan Lonnie Jairo Mariah" and concatenate them.
+A: The answer is "Nnyoiah"
+INFO:root:pred : Nnyoiah
+INFO:root:GT : neoh
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:478st data
+INFO:root:Q: Take the last letters of each words in "Nidia Rachelle Lauren Shelia" and concatenate them.
+A: The answer is "ariaenla"
+INFO:root:pred : ariaenla
+INFO:root:GT : aena
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:479st data
+INFO:root:Q: Take the last letters of each words in "Angela Krista Cora Denisse" and concatenate them.
+A: The answer is "alaarssae"
+INFO:root:pred : alaarssae
+INFO:root:GT : aaae
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:480st data
+INFO:root:Q: Take the last letters of each words in "Chandler Martina Leonardo Gregg" and concatenate them.
+A: The answer is "r a o o g."
+INFO:root:pred : raoog
+INFO:root:GT : raog
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:481st data
+INFO:root:Q: Take the last letters of each words in "Agnes Adrienne Haley Riley" and concatenate them.
+A: The answer is "ssyeyeyey".
+INFO:root:pred : ssyeyeyey
+INFO:root:GT : seyy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:482st data
+INFO:root:Q: Take the last letters of each words in "Albert Felicia Margo Patty" and concatenate them.
+A: The answer is "tayl"
+INFO:root:pred : tayl
+INFO:root:GT : taoy
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:483st data
+INFO:root:Q: Take the last letters of each words in "Noelia Cassidy Ashok Francisco" and concatenate them.
+A: The answer is "ayhokco"
+INFO:root:pred : ayhokco
+INFO:root:GT : ayko
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:484st data
+INFO:root:Q: Take the last letters of each words in "Charmaine Vic Homero Jeanine" and concatenate them.
+A: The answer is "e c o n e n e".
+INFO:root:pred : econene
+INFO:root:GT : ecoe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:485st data
+INFO:root:Q: Take the last letters of each words in "Glen Ariana Reggie Polo" and concatenate them.
+A: The answer is "NAROLO"
+INFO:root:pred : NAROLO
+INFO:root:GT : naeo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:486st data
+INFO:root:Q: Take the last letters of each words in "Wilmer Valerie Melissa Eloisa" and concatenate them.
+A: The answer is "r e a a"
+INFO:root:pred : reaa
+INFO:root:GT : reaa
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:487st data
+INFO:root:Q: Take the last letters of each words in "Marco Antonio Suzette Roland Isabel" and concatenate them.
+A: The answer is "o o e e d l l".
+INFO:root:pred : ooeedll
+INFO:root:GT : oedl
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:488st data
+INFO:root:Q: Take the last letters of each words in "Tim Candace Cecil Misael" and concatenate them.
+A: The answer is "meelel"
+INFO:root:pred : meelel
+INFO:root:GT : mell
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:489st data
+INFO:root:Q: Take the last letters of each words in "Hailey Avi Bree Samira" and concatenate them.
+A: The answer is "yieeira"
+INFO:root:pred : yieeira
+INFO:root:GT : yiea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:490st data
+INFO:root:Q: Take the last letters of each words in "Jason Betty Elisa Jay" and concatenate them.
+A: The answer is "Nytay"
+INFO:root:pred : Nytay
+INFO:root:GT : nyay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:491st data
+INFO:root:Q: Take the last letters of each words in "Oscar George Sanjay Haydee" and concatenate them.
+A: The answer is "rseayee"
+INFO:root:pred : rseayee
+INFO:root:GT : reye
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:492st data
+INFO:root:Q: Take the last letters of each words in "Andre Oralia Carrie Bruno" and concatenate them.
+A: The answer is "Eiaieieo"
+INFO:root:pred : Eiaieieo
+INFO:root:GT : eaeo
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:493st data
+INFO:root:Q: Take the last letters of each words in "Leigh Mindy Rocky Lex" and concatenate them.
+A: The answer is "hydyx"
+INFO:root:pred : hydyx
+INFO:root:GT : hyyx
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:494st data
+INFO:root:Q: Take the last letters of each words in "Jody Juan Rebekah Kaylee" and concatenate them.
+A: The answer is "y n h y e e"
+INFO:root:pred : ynhyee
+INFO:root:GT : ynhe
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:495st data
+INFO:root:Q: Take the last letters of each words in "Liliana Quincy Bart Makayla" and concatenate them.
+A: The answer is "anaqytlala"
+INFO:root:pred : anaqytlala
+INFO:root:GT : ayta
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:496st data
+INFO:root:Q: Take the last letters of each words in "Mya Fernando Bubba Tommy" and concatenate them.
+A: The answer is "ayadubymmy"
+INFO:root:pred : ayadubymmy
+INFO:root:GT : aoay
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:497st data
+INFO:root:Q: Take the last letters of each words in "Emanuel Cheyenne Perez Yvette" and concatenate them.
+A: The answer is "lneeyte"
+INFO:root:pred : lneeyte
+INFO:root:GT : leze
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:498st data
+INFO:root:Q: Take the last letters of each words in "Len Marquis Kylie Sandra" and concatenate them.
+A: The answer is "nseiea"
+INFO:root:pred : nseiea
+INFO:root:GT : nsea
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:499st data
+INFO:root:Q: Take the last letters of each words in "Rich Parker Edward Milagros" and concatenate them.
+A: The answer is "r, r, d, s"
+INFO:root:pred : r,r,d,s
+INFO:root:GT : hrds
+INFO:root:*************************
+INFO:root:*************************
+INFO:root:500st data
+INFO:root:Q: Take the last letters of each words in "Marlen Sonja Anita Dale" and concatenate them.
+A: The answer is "najae".
+INFO:root:pred : najae
+INFO:root:GT : naae
+INFO:root:*************************
+INFO:root:accuracy : 4.2
