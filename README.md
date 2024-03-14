@@ -5,7 +5,7 @@ This is the official implementation of `Large Language Models are Contrastive Re
 The paper is available at [arXiv](https://arxiv.org/abs/2403.08211).
 
 
-![这是图片](./img/zero_shot_cp.png "Zero-shot-CP")
+![Zero-shot-CP](./img/zero_shot_cp.png "Zero-shot-CP")
 
 ## Installation
 Make sure you have Python>=3.8 installed on your machine.
