@@ -2,8 +2,6 @@
 
 This is the official implementation of `Large Language Models are Contrastive Reasoners`. The code is modified based on [the implementation of Zero-Shot-CoT](https://github.com/kojima-takeshi188/zero_shot_cot).
 
-The paper is available at [arXiv](https://arxiv.org/abs/2403.08211).
-
 
 ![Zero-shot-CP](./img/zero_shot_cp.png "Zero-shot-CP")
 
