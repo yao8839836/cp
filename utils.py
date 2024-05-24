@@ -2,7 +2,8 @@ from statistics import mean
 from torch.utils.data import Dataset
 from collections import OrderedDict
 import xml.etree.ElementTree as ET
-import openai # For GPT-3 API ...
+import openai # For GPT-3.5 and GPT-4 API ...
+from openai import OpenAI # For open LLM API ...
 import os
 import multiprocessing
 import json
@@ -123,13 +124,46 @@ def decoder_for_gpt4(args, input, max_length, i, k):
     else:
         return ".........."
 
+def decoder_for_openLLM(args, input, max_length, i, k):
+    # https://docs.llama-api.com/quickstart
+    
+    time.sleep(args.api_time_interval)
+
+    client = OpenAI(
+        api_key = "", # fill your API key at here
+        base_url = "https://api.llama-api.com"
+    )
+    print("Model name:", args.model)
+    try:
+        response = client.chat.completions.create(
+            model=args.model,
+            messages=[
+                {"role": "system", "content": "Assistant is a large language model."},
+                {"role": "user", "content": input}
+            ]
+
+        )
+        result = response.choices[0].message.content
+    except:
+        return ".........."
+
+    #print(response)
+    #print(response.model_dump_json(indent=2))
+    #print(response.choices[0].message.content)
+    return result
+
 class Decoder():
     def __init__(self, args):
         print_now()
  
     def decode(self, args, input, max_length, i, k):
         #response = decoder_for_gpt3(args, input, max_length, i, k)
-        response = decoder_for_gpt4(args, input, max_length, i, k)
+        if args.model in ["chatgpt", "gpt-4"]:
+            response = decoder_for_gpt4(args, input, max_length, i, k)
+        elif args.model in ["llama3-8b", "llama3-70b", "mistral-7b", "gemma-7b", "gemma-2b", "Qwen1.5-72B-Chat"]:
+            response = decoder_for_openLLM(args, input, max_length, i, k)
+        else:
+            response = ".........."
         return response
 
 def data_reader(args):

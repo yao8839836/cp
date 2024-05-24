@@ -46,8 +46,7 @@ def main():
     total = 0
     correct_list = []        
     for i, data in enumerate(dataloader):
-        # if i + 1 < 857:
-        #    continue
+
         print('*************************')
         logging.info('*************************')
         print("{}st data".format(i+1))
@@ -142,8 +141,9 @@ def parse_arguments():
     parser.add_argument("--max_num_worker", type=int, default=1, help="maximum number of workers for dataloader")
     
     parser.add_argument(
-        "--model", type=str, default="gpt-4", choices=["chatgpt", "gpt-4"], help="model used for decoding."
+        "--model", type=str, default="gpt-4", choices=["chatgpt", "gpt-4", "llama3-8b", "llama3-70b", "mistral-7b", "gemma-7b", "gemma-2b", "Qwen1.5-72B-Chat"], help="model used for decoding."
         #"gpt3", "gpt3-medium", "gpt3-large", "gpt3-xl",  Note that 'gpt3' are the smallest models.
+        # Qwen1.5-72B-Chat ( replace 72B with 32B / 14B / 7B / 4B / 1.8B / 0.5B)
     )
     
     parser.add_argument(
@@ -168,7 +168,7 @@ def parse_arguments():
         "--limit_dataset_size", type=int, default=0, help="whether to limit test dataset size. if 0, the dataset size is unlimited and we use all the samples in the dataset for testing."
     )
     parser.add_argument(
-        "--api_time_interval", type=float, default=1.0, help=""
+        "--api_time_interval", type=float, default=0.1, help=""
     )
     parser.add_argument(
         "--log_dir", type=str, default="./log/", help="log directory"
@@ -286,7 +286,9 @@ def parse_arguments():
     elif args.cp_trigger_no == 9:
         args.cp_trigger = "Let's give a correct and three wrong answers."
     elif args.cp_trigger_no == 10:
-        args.cp_trigger = "Let's give a correct and four wrong answers."                                                  
+        args.cp_trigger = "Let's give a correct and four wrong answers."
+    elif args.cp_trigger_no == 11:
+        args.cp_trigger = "Let's give a correct answer."                                               
     else:
         raise ValueError("cp_trigger_no is not properly defined ...")
 
