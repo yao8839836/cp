@@ -2,6 +2,8 @@
 
 This is the official implementation of `Large Language Models are Contrastive Reasoners`. The code is modified based on [the implementation of Zero-Shot-CoT](https://github.com/kojima-takeshi188/zero_shot_cot).
 
+The paper is available at [arXiv](https://arxiv.org/abs/2403.08211).
+
 
 ![Zero-shot-CP](./img/zero_shot_cp.png "Zero-shot-CP")
 
@@ -74,4 +76,10 @@ python main.py --method=few_shot_cot_cp --cp_trigger_no=1 --model=${model} --dat
 
 ## Citation
 ```
+@article{yao2024large,
+  title={Large Language Models are Contrastive Reasoners},
+  author={Yao, Liang},
+  journal={arXiv preprint arXiv:2403.08211},
+  year={2024}
+}
 ```
