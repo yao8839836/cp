@@ -74,12 +74,4 @@ python main.py --method=few_shot --model=${model} --dataset=${dataset}
 python main.py --method=few_shot_cot_cp --cp_trigger_no=1 --model=${model} --dataset=${dataset}
 ```
 
-## Citation
-```
-@article{yao2024large,
-  title={Large Language Models are Contrastive Reasoners},
-  author={Yao, Liang},
-  journal={arXiv preprint arXiv:2403.08211},
-  year={2024}
-}
-```
+
